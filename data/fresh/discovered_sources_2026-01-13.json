@@ -1,0 +1,43 @@
+{
+  "date": "2026-01-13",
+  "discovered": {
+    "telegram": [
+      "t.me/biznesuz_official",
+      "t.me/startupuzb",
+      "t.me/investuz",
+      "@entrepreneursuz",
+      "youtube.com/@moneyuz",
+      "youtube.com/@freelanceuzb",
+      "youtube.com/@biznes_darslar"
+    ],
+    "facebook": [
+      "facebook.com/groups/rabota_tashkent_2026",
+      "facebook.com/groups/vakansii_uzbekistan",
+      "facebook.com/groups/hr_uzbekistan"
+    ],
+    "instagram": [
+      "instagram.com/shop_tashkent",
+      "instagram.com/moda_uz",
+      "instagram.com/gadget_uz"
+    ],
+    "youtube": [],
+    "website_uz": [
+      "freelance.uz/forum",
+      "kun.uz/forum/freelance",
+      "itpark.uz/community",
+      "olx.uz",
+      "sello.uz",
+      "bazar.uz",
+      "list.uz"
+    ],
+    "other": []
+  },
+  "totals": {
+    "telegram": 7,
+    "facebook": 3,
+    "instagram": 3,
+    "youtube": 0,
+    "website_uz": 7,
+    "other": 0
+  }
+}

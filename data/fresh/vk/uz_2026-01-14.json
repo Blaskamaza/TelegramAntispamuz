@@ -1,0 +1,155 @@
+{
+  "date": "2026-01-14",
+  "api_mode": false,
+  "groups_count": 0,
+  "posts_count": 8,
+  "pains_count": 7,
+  "posts": [
+    {
+      "id": 0,
+      "text": "Ищу работу программистом в Ташкенте, опыт 2 года Python",
+      "date": "2026-01-14T11:53:25.504194",
+      "likes": 48,
+      "views": 199,
+      "group": "mock_group"
+    },
+    {
+      "id": 1,
+      "text": "Подскажите хорошие курсы английского языка",
+      "date": "2026-01-14T11:53:25.504194",
+      "likes": 29,
+      "views": 380,
+      "group": "mock_group"
+    },
+    {
+      "id": 2,
+      "text": "Где купить iPhone дешевле всего?",
+      "date": "2026-01-14T11:53:25.504194",
+      "likes": 29,
+      "views": 169,
+      "group": "mock_group"
+    },
+    {
+      "id": 3,
+      "text": "Проблема с оплатой через Click, помогите!",
+      "date": "2026-01-14T11:53:25.504194",
+      "likes": 40,
+      "views": 703,
+      "group": "mock_group"
+    },
+    {
+      "id": 4,
+      "text": "Ищу репетитора по математике для подготовки к DTM",
+      "date": "2026-01-14T11:53:25.504194",
+      "likes": 13,
+      "views": 561,
+      "group": "mock_group"
+    },
+    {
+      "id": 5,
+      "text": "Сдаю квартиру в центре Ташкента, 3 комнаты",
+      "date": "2026-01-14T11:53:25.504194",
+      "likes": 30,
+      "views": 513,
+      "group": "mock_group"
+    },
+    {
+      "id": 6,
+      "text": "Как оформить визу в Корею?",
+      "date": "2026-01-14T11:53:25.504194",
+      "likes": 27,
+      "views": 435,
+      "group": "mock_group"
+    },
+    {
+      "id": 7,
+      "text": "Нужен хороший стоматолог, посоветуйте",
+      "date": "2026-01-14T11:53:25.504194",
+      "likes": 47,
+      "views": 501,
+      "group": "mock_group"
+    }
+  ],
+  "pains": [
+    {
+      "text": "Где купить iPhone дешевле всего?",
+      "group": "mock_group",
+      "type": "pain",
+      "score": 2,
+      "keywords": [
+        "?",
+        "где"
+      ],
+      "likes": 29,
+      "views": 169
+    },
+    {
+      "text": "Проблема с оплатой через Click, помогите!",
+      "group": "mock_group",
+      "type": "pain",
+      "score": 2,
+      "keywords": [
+        "помогите",
+        "проблема"
+      ],
+      "likes": 40,
+      "views": 703
+    },
+    {
+      "text": "Как оформить визу в Корею?",
+      "group": "mock_group",
+      "type": "pain",
+      "score": 2,
+      "keywords": [
+        "?",
+        "как"
+      ],
+      "likes": 27,
+      "views": 435
+    },
+    {
+      "text": "Ищу работу программистом в Ташкенте, опыт 2 года Python",
+      "group": "mock_group",
+      "type": "question",
+      "score": 1,
+      "keywords": [
+        "ищу"
+      ],
+      "likes": 48,
+      "views": 199
+    },
+    {
+      "text": "Подскажите хорошие курсы английского языка",
+      "group": "mock_group",
+      "type": "question",
+      "score": 1,
+      "keywords": [
+        "подскажите"
+      ],
+      "likes": 29,
+      "views": 380
+    },
+    {
+      "text": "Ищу репетитора по математике для подготовки к DTM",
+      "group": "mock_group",
+      "type": "question",
+      "score": 1,
+      "keywords": [
+        "ищу"
+      ],
+      "likes": 13,
+      "views": 561
+    },
+    {
+      "text": "Нужен хороший стоматолог, посоветуйте",
+      "group": "mock_group",
+      "type": "question",
+      "score": 1,
+      "keywords": [
+        "нужен"
+      ],
+      "likes": 47,
+      "views": 501
+    }
+  ]
+}

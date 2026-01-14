@@ -1,0 +1,33 @@
+{
+  "niche": "EdTech",
+  "copycat_opportunities": [
+    {
+      "original_startup": "Uchi.ru (Russia)",
+      "what_they_do": "Online platform offering interactive courses, lessons, and educational games for K-12 school students, focusing on core subjects with gamified learning.",
+      "success_metrics": "Raised $50M+ from Mail.ru Group, RDIF, and Russia-China Investment Fund; major funding boost in 2020 and strong presence in Russia & CIS EdTech 100.",
+      "why_it_will_work_in_uzbekistan": "Uzbekistan has growing demand for digital K-12 education amid rising internet penetration and government push for digital literacy; no dominant direct equivalent in local market, unlike saturated tutoring segments.",
+      "adaptation_strategy": "Localize content to Uzbek and Russian languages with Uzbekistan school curriculum alignment; partner with local schools for integrations; start with freemium model targeting parents via Telegram channels; bootstrap with low dev costs using open-source tools, seek grants from Uzbekistan's IT Park."
+    },
+    {
+      "original_startup": "Skyeng (Russia)",
+      "what_they_do": "Online English language tutoring platform using AI matching for personalized lessons with native speakers and teachers.",
+      "success_metrics": "Received undisclosed funding from Baring Vostok and Winter Capital; prominent in Russian edtech scene with scalable online model.",
+      "why_it_will_work_in_uzbekistan": "High demand for English skills in Uzbekistan for jobs, migration, and international education; limited personalized online tutoring options locally compared to Russia/Kazakhstan.",
+      "adaptation_strategy": "Adapt AI matching for Uzbek learners, hire bilingual tutors from Uzbekistan/Russia; integrate with local payment systems like Click; launch via targeted ads on local Telegram channels and Instagram; offer affordable group classes initially to build user base before scaling to 1-on-1."
+    },
+    {
+      "original_startup": "StudyFree (Russia/Global)",
+      "what_they_do": "Platform helping students apply to international universities, find scholarships, and prepare documents for studying abroad.",
+      "success_metrics": "23,000 users worldwide; raised $600K pre-seed from Acrobator VC, Seedstars, and others; cash positive from month one, founded 2018.",
+      "why_it_will_work_in_uzbekistan": "Increasing Uzbek students pursuing overseas education (e.g., Turkey, Europe); no specialized platform exists locally, filling gap in application support amid rising middle-class aspirations.",
+      "adaptation_strategy": "Tailor database to popular destinations for Uzbeks (US, UK, Turkey, Russia); add Uzbek language support and local uni partnerships; monetize via premium services; market through universities and Telegram student groups; remote team model with low startup costs under $10K."
+    },
+    {
+      "original_startup": "Kodland (Russia)",
+      "what_they_do": "Online coding and programming classes for children, emphasizing practical projects like games and websites instead of tests.",
+      "success_metrics": "Featured in VC portfolios and Russia & CIS EdTech 100; teaches computer literacy to kids with real-world project focus.",
+      "why_it_will_work_in_uzbekistan": "Uzbekistan's IT sector boom (IT Park incentives) drives demand for early coding education; edtech ecosystem underdeveloped for kids' STEM, unlike general tutoring.",
+      "adaptation_strategy": "Translate courses to Uzbek/Russian, align with local school STEM initiatives; use gamified platform for engagement; partner with IT Park for certifications; freemium access with paid advanced projects; promote via parent communities on Telegram and local news like Gazeta.uz."
+    }
+  ]
+}

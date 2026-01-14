@@ -1,0 +1,119 @@
+{
+  "date": "2026-01-13",
+  "total_keywords": 14,
+  "growing_trends": 14,
+  "data": [
+    {
+      "keyword": "учёба онлайн",
+      "avg_interest": 78,
+      "trend": "📈",
+      "growth_3m": 45.2,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "работа на дому",
+      "avg_interest": 85,
+      "trend": "📈",
+      "growth_3m": 62.1,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "доставка еды",
+      "avg_interest": 92,
+      "trend": "📈",
+      "growth_3m": 38.5,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "подготовка к ЕНТ",
+      "avg_interest": 95,
+      "trend": "📈",
+      "growth_3m": 120.0,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "курсы узбекского",
+      "avg_interest": 45,
+      "trend": "📈",
+      "growth_3m": 28.3,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "фриланс для девушек",
+      "avg_interest": 67,
+      "trend": "📈",
+      "growth_3m": 55.8,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "ремонт квартир Ташкент",
+      "avg_interest": 72,
+      "trend": "📈",
+      "growth_3m": 22.1,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "продажа одежды instagram",
+      "avg_interest": 88,
+      "trend": "📈",
+      "growth_3m": 75.4,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "кредит онлайн",
+      "avg_interest": 82,
+      "trend": "📈",
+      "growth_3m": 41.2,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "IT курсы для девочек",
+      "avg_interest": 58,
+      "trend": "📈",
+      "growth_3m": 89.7,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "qanday pul ishlash",
+      "avg_interest": 91,
+      "trend": "📈",
+      "growth_3m": 67.3,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "onlayn ish",
+      "avg_interest": 79,
+      "trend": "📈",
+      "growth_3m": 52.1,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "DTM test",
+      "avg_interest": 98,
+      "trend": "📈",
+      "growth_3m": 150.0,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    },
+    {
+      "keyword": "dasturlash o'rganish",
+      "avg_interest": 65,
+      "trend": "📈",
+      "growth_3m": 43.8,
+      "timestamp": "2026-01-13T16:36:48.566956",
+      "source": "mock (pytrends not installed)"
+    }
+  ]
+}

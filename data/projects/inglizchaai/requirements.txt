@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+aiogram
+openai
+supabase
+python-dotenv
+pydantic
+pydantic-settings
+asyncpg

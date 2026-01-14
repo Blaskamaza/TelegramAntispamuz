@@ -1,0 +1,217 @@
+{
+  "ideas": [
+    {
+      "name": "AI Tutor for School Students",
+      "problem_solved": "Недостаток персонализированных инструментов для изучения современных навыков в школах, где K-12 сегмент доминирует в EdTech с 39% рынка[3]",
+      "target_audience": "Школьники 7-11 классов и их родители",
+      "solution": "Мобильное приложение с AI-тьюторами на узбекском/русском для математики, языков и IT, интегрированное с Coursera-подобными курсами[4]",
+      "revenue_model": "Freemium: базовый доступ бесплатно, премиум с персонализацией - 5$/мес",
+      "startup_cost": "$2000-5000 (разработка MVP на no-code платформах как Bubble)",
+      "competitors": [
+        "Coursera",
+        "Daryo IT"
+      ],
+      "unique_value": "Локализация под узбекскую программу + интеграция с новой цифровой платформой 2026[2]",
+      "first_steps": [
+        "Разработать MVP с 3 предметами",
+        "Протестировать на 100 школьниках",
+        "Запустить рекламу в Telegram-каналах школ"
+      ],
+      "potential_revenue": "10k пользователей * 20% платящих * 5$/мес = $10k/мес",
+      "difficulty": "medium",
+      "score": 9
+    },
+    {
+      "name": "Dual Education Matching Platform",
+      "problem_solved": "Низкое покрытие дуального образования, нужда в 5-кратном росте и связи студентов с предприятиями[2]",
+      "target_audience": "Студенты техникумов и работодатели",
+      "solution": "Платформа для matching навыков студентов с вакансиями, с цифровым портфолио и трекингом прогресса",
+      "revenue_model": "Комиссия 10% от найма + премиум для компаний 50$/мес",
+      "startup_cost": "$3000-6000 (сайт на WordPress + база данных)",
+      "competitors": [
+        "Государственная платформа 2026",
+        "HH.uz"
+      ],
+      "unique_value": "Фокус на IT/STEM с сертификатами Coursera[4] и поддержка 'Investor-Trade-Technical school'[2]",
+      "first_steps": [
+        "Собрать данные о 50 техникумах",
+        "Партнерство с 10 предприятиями",
+        "Запуск бета-версии"
+      ],
+      "potential_revenue": "500 матчей/год * 10% комиссия * $500 = $25k/год",
+      "difficulty": "easy",
+      "score": 8
+    },
+    {
+      "name": "English for IT Pros App",
+      "problem_solved": "Необходимость 4-кратного увеличения часов иностранных языков для IT и инвесторов[2]",
+      "target_audience": "Молодые IT-специалисты и студенты",
+      "solution": "Геймифицированное app с разговорным английским для IT-тем, интегрированное с олимпиадами[1]",
+      "revenue_model": "Подписка 3$/мес + корпоративные лицензии",
+      "startup_cost": "$1500-4000 (Duolingo-клон на Adalo)",
+      "competitors": [
+        "Duolingo",
+        "VIPKid[3]"
+      ],
+      "unique_value": "Специализация на IT-лексике и узбекском интерфейсе для экспортных компаний[1]",
+      "first_steps": [
+        "Создать 50 уроков",
+        "Тестирование с выпускниками IT-Talents",
+        "Маркетинг через IT-ассоциации[4]"
+      ],
+      "potential_revenue": "5k пользователей * 30% платящих * 3$/мес = $4.5k/мес",
+      "difficulty": "easy",
+      "score": 9
+    },
+    {
+      "name": "STEM Kits Delivery for Schools",
+      "problem_solved": "Рост STEM-образования с $100M от ADB, но дефицит оборудования в школах[5]",
+      "target_audience": "Школы и технические колледжи",
+      "solution": "Подписка на DIY STEM-киты (робототехника, data science) с онлайн-уроками",
+      "revenue_model": "Киты по 20$/мес на класс + гранты",
+      "startup_cost": "$4000-8000 (закупка/производство 100 китов)",
+      "competitors": [
+        "Локальные поставщики",
+        "School 21[1]"
+      ],
+      "unique_value": "Интеграция с 'Mirzo Ulugbek Successors' и AI-обучением учителей[1]",
+      "first_steps": [
+        "Разработать 5 китов",
+        "Партнерство с 20 школами",
+        "Заявка на субсидии IT-Talents[1]"
+      ],
+      "potential_revenue": "200 школ * 20$/мес = $4k/мес",
+      "difficulty": "medium",
+      "score": 8
+    },
+    {
+      "name": "Vocational Skills Marketplace",
+      "problem_solved": "Рост популярности vocational training, но разрыв между выпускниками и рынком[7]",
+      "target_audience": "Выпускники техникумов 9-11 классов",
+      "solution": "Маркетплейс коротких онлайн-курсов по modern skills с сертификатами для портфолио[2]",
+      "revenue_model": "Комиссия 20% с курсов + B2B для предприятий",
+      "startup_cost": "$2500-5000 (Teachable-подобный сайт)",
+      "competitors": [
+        "Coursera[4]",
+        "IT Education Association[4]"
+      ],
+      "unique_value": "Фокус на dual education и едином экзамене 2026[2]",
+      "first_steps": [
+        "Привлечь 20 локальных тренеров",
+        "Интеграция с цифровой платформой[2]",
+        "Запуск для 1000 студентов"
+      ],
+      "potential_revenue": "10k курсов/год * 20% * $10 = $20k/год",
+      "difficulty": "medium",
+      "score": 7
+    },
+    {
+      "name": "Teacher AI Upskilling Platform",
+      "problem_solved": "Обучение 5000+ учителей AI через InfoTeach, но нужны масштабируемые инструменты[1]",
+      "target_audience": "Учителя школ и техникумов",
+      "solution": "Онлайн-платформа с AI-генераторами уроков и чатботами для педагогов",
+      "revenue_model": "Freemium + гранты от Минцифры[1]",
+      "startup_cost": "$2000-4000 (Notion + AI API)",
+      "competitors": [
+        "Coursera for teachers[4]"
+      ],
+      "unique_value": "Локальный контент под реформу 2026 и counselors в школах[2]",
+      "first_steps": [
+        "Создать 10 модулей",
+        "Пилот с 200 учителями",
+        "Партнерство с форумами[1]"
+      ],
+      "potential_revenue": "5k учителей * 10% * 5$/мес = $2.5k/мес",
+      "difficulty": "easy",
+      "score": 8
+    },
+    {
+      "name": "IT Olympiad Prep App",
+      "problem_solved": "Успехи на олимпиадах, но нужен массовый доступ к подготовке[1]",
+      "target_audience": "Школьники и студенты IT",
+      "solution": "App с задачами, видеоразборами и лидербордом для Informatics Olympiads",
+      "revenue_model": "Подписка 2$/мес + спонсорство от IT-центров",
+      "startup_cost": "$1000-3000 (Flutter app)",
+      "competitors": [
+        "Локальные центры[1]"
+      ],
+      "unique_value": "Связь с 'School 21' и экспортными компаниями[1]",
+      "first_steps": [
+        "Собрать 1000 задач",
+        "Турнир для 500 пользователей",
+        "Реклама в школах"
+      ],
+      "potential_revenue": "3k пользователей * 25% * 2$/мес = $1.5k/мес",
+      "difficulty": "easy",
+      "score": 9
+    },
+    {
+      "name": "Data Science Bootcamp Online",
+      "problem_solved": "860+ обученных по data science, спрос на масштабирование[1]",
+      "target_audience": "Молодежь под 'Mirzo Ulugbek Successors'",
+      "solution": "3-месячный онлайн-боткемп с проектами и job placement",
+      "revenue_model": "$100/студент + партнерства",
+      "startup_cost": "$3000-6000 (Zoom + LMS)",
+      "competitors": [
+        "IT-Talents центры[1]"
+      ],
+      "unique_value": "Гарантия стажировки через 428 центров[1]",
+      "first_steps": [
+        "Набрать 50 студентов",
+        "Партнерство с 10 компаниями",
+        "Сертификаты Coursera[4]"
+      ],
+      "potential_revenue": "200 студентов/год * $100 = $20k/год",
+      "difficulty": "medium",
+      "score": 8
+    },
+    {
+      "name": "Mahalla EdTech Hubs",
+      "problem_solved": "Год махаллей 2026, цифровизация образования на локальном уровне[6]",
+      "target_audience": "Дети и молодежь в махаллях",
+      "solution": "Мини-хабы с планшетами и VR для STEM в махаллях, с онлайн-доступом",
+      "revenue_model": "Гранты + донаты + абонемент 1$/мес",
+      "startup_cost": "$5000-10000 (10 хабов с оборудованием)",
+      "competitors": [
+        "Государственные техникумы[6]"
+      ],
+      "unique_value": "Интеграция с counselors и dual system[2]",
+      "first_steps": [
+        "Пилот в 5 махаллях Ташкента",
+        "Партнерство с хокимами",
+        "Заявка на субсидии"
+      ],
+      "potential_revenue": "1000 пользователей * 1$/мес + гранты = $15k/год",
+      "difficulty": "hard",
+      "score": 7
+    },
+    {
+      "name": "Freelance IT Skills Certifier",
+      "problem_solved": "1M+ бесплатных курсов, но нужны сертификаты для фриланса[4]",
+      "target_audience": "Молодые фрилансеры IT",
+      "solution": "Платформа для тестов и выдачи certs по 5 ключевым областям[4]",
+      "revenue_model": "$5 за cert + партнерства с Upwork",
+      "startup_cost": "$1500-4000 (Quiz платформа)",
+      "competitors": [
+        "Coursera certs[4]"
+      ],
+      "unique_value": "Узбекские/русские тесты с фокусом на экспорт[1]",
+      "first_steps": [
+        "Разработать тесты для 5 skills",
+        "Интеграция с 30k cert получателями[4]",
+        "Маркетинг в IT-форумах"
+      ],
+      "potential_revenue": "10k certs/год * $5 = $50k/год",
+      "difficulty": "medium",
+      "score": 9
+    }
+  ],
+  "top_opportunities": [
+    "Рост IT-образования с 37k+ выпускниками и субсидиями[1]",
+    "2026 как год modern skills и dual education[2]",
+    "Масштабные бесплатные программы Coursera для 1M+ молодежи[4]"
+  ],
+  "agent": "IdeaGenerator",
+  "focus": "Education technology",
+  "timestamp": "2026-01-14T13:03:29.657632"
+}

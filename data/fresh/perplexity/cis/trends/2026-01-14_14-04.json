@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-01-14 14:04",
+  "hot_topics": [
+    {
+      "topic": "Uzbekistan army modernisation and Security Council meeting",
+      "category": "Defense",
+      "heat_score": 9,
+      "source": "Caliber.az, Daryo.uz"
+    },
+    {
+      "topic": "Uzbekistan targets WTO accession by 2026",
+      "category": "Economy",
+      "heat_score": 8,
+      "source": "Caspianpost.com"
+    },
+    {
+      "topic": "Uzbekistan diplomatic talks with Turkey, Pakistan, Iraq business delegation",
+      "category": "International Relations",
+      "heat_score": 7,
+      "source": "Newslineuz.com"
+    },
+    {
+      "topic": "No restrictions on Uzbek language in Afghanistan; new faculty planned",
+      "category": "Diplomacy",
+      "heat_score": 6,
+      "source": "Yuz.uz"
+    },
+    {
+      "topic": "UN forecasts declining inflation in Uzbekistan to 7.1% in 2026",
+      "category": "Economy",
+      "heat_score": 5,
+      "source": "Trend.az"
+    }
+  ],
+  "trending_searches": [
+    "Uzbekistan Security Council meeting",
+    "Uzbekistan WTO accession 2026",
+    "Uzbek army modernisation",
+    "Uzbekistan Afghanistan language policy",
+    "Uzbekistan inflation forecast"
+  ],
+  "viral_content": [
+    "President Mirziyoyev's speech on army tech upgrades, drone units, e-sports in military, and 1 million books for troops",
+    "Signing of WTO protocol with Russia during Mirziyoyev's St. Petersburg visit",
+    "Iraqi business delegation of 200 entrepreneurs visiting Tashkent and Samarkand"
+  ],
+  "business_implications": [
+    "WTO accession by 2026 to boost trade integration and market access, benefiting exporters and investors",
+    "New cyanide salts production in Navoiy region enhances chemical industry output and export potential",
+    "FAO renewable energy roadmap for agriculture supports sustainable farming investments and cost reductions",
+    "Iraqi entrepreneur delegation signals expanded B2B opportunities in trade and joint ventures",
+    "Declining inflation forecast improves economic stability, aiding business planning and consumer spending"
+  ]
+}

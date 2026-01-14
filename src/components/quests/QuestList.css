@@ -1,0 +1,204 @@
+.quest-list {
+    margin-top: 32px;
+}
+
+.quest-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.quest-header h2 {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+}
+
+/* === Empty State === */
+.empty-state {
+    background: var(--bg-secondary);
+    border: 2px dashed var(--border-color);
+    border-radius: var(--radius-xl);
+    padding: 64px 32px;
+    text-align: center;
+}
+
+.empty-icon {
+    font-size: 4rem;
+    margin-bottom: 16px;
+}
+
+.empty-state h3 {
+    font-size: 1.25rem;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.empty-state p {
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+}
+
+/* === Quest Grid === */
+.quest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.quest-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.quest-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--gradient-primary);
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+}
+
+.quest-card:hover {
+    border-color: var(--border-color-hover);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.quest-card:hover::before {
+    opacity: 1;
+}
+
+/* Status colors */
+.quest-card.status-idea::before {
+    background: linear-gradient(90deg, #fbbf24, #f59e0b);
+}
+
+.quest-card.status-research::before {
+    background: linear-gradient(90deg, #3b82f6, #2563eb);
+}
+
+.quest-card.status-prototype::before {
+    background: linear-gradient(90deg, #10b981, #059669);
+}
+
+.quest-card.status-launch::before {
+    background: linear-gradient(90deg, #8b5cf6, #7c3aed);
+}
+
+.quest-card.status-monetize::before {
+    background: linear-gradient(90deg, #f43f5e, #e11d48);
+    opacity: 1;
+}
+
+/* === Status Badge === */
+.quest-status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: var(--bg-glass);
+    border-radius: var(--radius-sm);
+    margin-bottom: 16px;
+}
+
+.status-icon {
+    font-size: 1rem;
+}
+
+.status-name {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+}
+
+/* === Content === */
+.quest-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.quest-description {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* === Progress === */
+.quest-progress {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 8px;
+    background: var(--bg-tertiary);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--gradient-primary);
+    border-radius: 4px;
+}
+
+.progress-text {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    min-width: 40px;
+    text-align: right;
+}
+
+/* === Footer === */
+.quest-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-color);
+}
+
+.quest-xp {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.875rem;
+    color: var(--accent-warning);
+}
+
+.advance-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background: var(--bg-glass);
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.advance-btn:hover {
+    background: var(--accent-primary);
+    color: white;
+}

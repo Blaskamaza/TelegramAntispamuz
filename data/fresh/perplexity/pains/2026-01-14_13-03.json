@@ -1,0 +1,245 @@
+{
+  "pains": [
+    {
+      "pain": "Bloggers and social media commentators face criminal prosecution, forced psychiatric confinement, and harassment from security services for expressing critical opinions.",
+      "category": "IT/технологии",
+      "severity": "high",
+      "frequency": "frequently mentioned in monitoring reports",
+      "source": "IPHR and AHRCA report[1]",
+      "quotes": [
+        "law enforcement bodies... increasingly clamped down on critical bloggers and social media commentators. Demands to remove publications were frequent as well as internet trolling which often led to criminal prosecutions.",
+        "documents cases of bloggers and social media commentators facing prosecution, forced psychiatric confinement, and other pressures from security services due to legitimate free speech."
+      ],
+      "business_opportunity": "Develop secure VPN services or anonymous posting platforms tailored for Uzbek users to bypass censorship and protect free speech."
+    },
+    {
+      "pain": "Government blocks access to major social media and messaging sites like Facebook, Instagram, Telegram, YouTube, citing personal data law violations, disrupting daily communication.",
+      "category": "IT/технологии",
+      "severity": "high",
+      "frequency": "widespread impact on users in 2021 and ongoing concerns",
+      "source": "Business & Human Rights Resource Centre[2]",
+      "quotes": [
+        "Uzbek authorities have restricted access to most social media and instant messaging platforms for violating the Central Asian country's personal data legislation, a move felt almost immediately by users.",
+        "O'zkomnazorat added seven social networks -- Facebook, Instagram, LinkedIn, Moi Mir, Odnoklassniki, Telegram, and YouTube -- to its “register of violators”."
+      ],
+      "business_opportunity": "Offer local data-compliant social apps or proxy services that store data in Uzbekistan to enable uninterrupted access."
+    },
+    {
+      "pain": "Supreme Court expands banned list to 1,389 extremist materials, including 713 Telegram accounts, leading to criminal liability for sharing or accessing them.",
+      "category": "IT/технологии",
+      "severity": "high",
+      "frequency": "regular updates, from 800 to 1,389 items",
+      "source": "Asia-Plus[3]",
+      "quotes": [
+        "The updated list contains 1,389 items... The largest number of accounts with extremist content was found on Telegram—713 accounts.",
+        "The production or distribution of materials deemed to threaten public safety is subject to criminal liability."
+      ],
+      "business_opportunity": "Create content moderation tools or legal advisory apps for users to check banned materials before posting."
+    },
+    {
+      "pain": "Proposed laws allow throttling (speed reduction) of non-cooperative online platforms, threatening slower internet for popular sites like Telegram.",
+      "category": "IT/технологии",
+      "severity": "medium",
+      "frequency": "emerging in 2025 draft law discussions",
+      "source": "Kun.uz[4]",
+      "quotes": [
+        "Online platforms that consistently fail to cooperate... may have their access speed reduced within Uzbekistan by court decision.",
+        "shift away from full-scale blocking."
+      ],
+      "business_opportunity": "Build compliant local platforms or speed optimization tools that meet Uzbek regulations."
+    },
+    {
+      "pain": "Lack of clear legislative standards for online platform users leads to scattered regulations and vulnerability to arbitrary enforcement.",
+      "category": "IT/технологии",
+      "severity": "medium",
+      "frequency": "ongoing regulatory gaps noted in 2025",
+      "source": "Kun.uz[4]",
+      "quotes": [
+        "Currently, there are no clear legislative standards outlining the rights of online platform users in Uzbekistan, and content distribution requirements are scattered.",
+        "close existing regulatory gaps."
+      ],
+      "business_opportunity": "Launch educational platform or app explaining Uzbek internet laws with compliance checklists."
+    },
+    {
+      "pain": "Heavy gender imbalance in social media access, with 66.8% male vs 33.2% female users, limiting women's online participation.",
+      "category": "IT/технологии",
+      "severity": "medium",
+      "frequency": "persistent demographic trend in 2025 data",
+      "source": "DataReportal[5]",
+      "quotes": [
+        "33.2 percent of Uzbekistan’s social media user identities were female, while 66.8 percent were male.",
+        "data published in the ad planning tools of top social media platforms."
+      ],
+      "business_opportunity": "Develop women-focused social networks or safety features to boost female internet usage."
+    },
+    {
+      "pain": "Low social media penetration at 37.9% of population, excluding many from online discourse due to access barriers.",
+      "category": "IT/технологии",
+      "severity": "medium",
+      "frequency": "statistical reality in 2025",
+      "source": "DataReportal[5]",
+      "quotes": [
+        "14.1 million active social media user identities in Uzbekistan in October 2025... equivalent to 37.9 percent of Uzbekistan’s total population."
+      ],
+      "business_opportunity": "Affordable data plans or offline-first social apps for rural and low-income users."
+    },
+    {
+      "pain": "Government views social media as a threat, leading to ongoing crackdowns despite reform promises.",
+      "category": "IT/технологии",
+      "severity": "high",
+      "frequency": "historical and current pattern",
+      "source": "Freedom House[6]",
+      "quotes": [
+        "government authorities have recognized online news and social media as serious threats to their monopoly on information.",
+        "The online mobilization of public opinion is a potential express lane to democratic change."
+      ],
+      "business_opportunity": "Encrypted communication tools marketed as business or family tools to evade scrutiny."
+    },
+    {
+      "pain": "Criticizing authorities online remains very complicated, with minimal improvements post-2016.",
+      "category": "IT/технологии",
+      "severity": "high",
+      "frequency": "ranked 148/180 in press freedom",
+      "source": "RSF[7]",
+      "quotes": [
+        "criticising those in power remains very complicated.",
+        "Uzbekistan's youth and the expansion of Internet coverage have driven a boom in social media... Security indicator 140."
+      ],
+      "business_opportunity": "Anonymous reporting platforms for grievances channeled to NGOs."
+    },
+    {
+      "pain": "Intensified crackdown on critical voices since 2021 contradicts political modernization promises.",
+      "category": "IT/технологии",
+      "severity": "high",
+      "frequency": "escalating since 2021",
+      "source": "IPHR report[1]",
+      "quotes": [
+        "intensified crackdown on critical bloggers and social media commentators in Uzbekistan since 2021. This development contradicts President Shavkat Mirziyoyev’s political modernisation programme."
+      ],
+      "business_opportunity": "Legal aid services specializing in digital rights for persecuted bloggers."
+    },
+    {
+      "pain": "Courts fail to protect bloggers' freedom of expression, routinely siding with authorities.",
+      "category": "IT/технологии",
+      "severity": "high",
+      "frequency": "common in documented cases",
+      "source": "IPHR report[1]",
+      "quotes": [
+        "Courts typically failed to protect bloggers’ rights to freedom of expression and opinion.",
+        "criminal punishment for defamation remains in place."
+      ],
+      "business_opportunity": "Crowdfunded legal defense funds for free speech cases."
+    },
+    {
+      "pain": "Frequent demands to delete posts and internet trolling lead to prosecutions.",
+      "category": "IT/технологии",
+      "severity": "medium",
+      "frequency": "ongoing harassment tactic",
+      "source": "IPHR report[1]",
+      "quotes": [
+        "Demands to remove publications were frequent as well as internet trolling which often led to criminal prosecutions.",
+        "from 2021 onwards, law enforcement bodies... increasingly clamped down."
+      ],
+      "business_opportunity": "Anti-trolling browser extensions or reputation management tools."
+    },
+    {
+      "pain": "Personal data storage laws force blocks on global platforms, isolating users.",
+      "category": "IT/технологии",
+      "severity": "high",
+      "frequency": "enforced since April 2021",
+      "source": "Business & Human Rights[2]",
+      "quotes": [
+        "requires Internet companies to store the personal data of Uzbek users on servers in the country.",
+        "access to all the sites would be restored soon... head of O'zkomnazorat... dismissed."
+      ],
+      "business_opportunity": "Local cloud storage services compliant with Uzbek data laws."
+    },
+    {
+      "pain": "Expanding bans on TikTok, YouTube, and other platforms stifle content creators.",
+      "category": "IT/технологии",
+      "severity": "medium",
+      "frequency": "135 YouTube channels, 44 TikTok banned recently",
+      "source": "Asia-Plus[3]",
+      "quotes": [
+        "YouTube: 135 channels, TikTok: 44 accounts.",
+        "list reportedly also includes 13 websites and 20 books and texts."
+      ],
+      "business_opportunity": "Alternative video hosting platforms with built-in compliance filters."
+    },
+    {
+      "pain": "Burdensome requirements on bloggers persist despite revisions.",
+      "category": "IT/технологии",
+      "severity": "medium",
+      "frequency": "addressed in new draft but ongoing",
+      "source": "Kun.uz[4]",
+      "quotes": [
+        "some burdensome requirements previously imposed on bloggers have been revised.",
+        "draft law also proposes modern solutions to address the issue of anonymous profiles."
+      ],
+      "business_opportunity": "Blogger registration and compliance SaaS tool."
+    },
+    {
+      "pain": "Cybercrime like phishing and spam not clearly regulated, exposing users.",
+      "category": "IT/технологии",
+      "severity": "medium",
+      "frequency": "rising with 32.7M internet users",
+      "source": "Kun.uz[4]",
+      "quotes": [
+        "Special attention is given to combating cybercrime, including phishing and spam resources, which are now to be officially categorized as unlawful content.",
+        "internet users in Uzbekistan increased... to 32.7 million in 2025."
+      ],
+      "business_opportunity": "Affordable antivirus and phishing protection apps localized for Uzbekistan."
+    },
+    {
+      "pain": "Adult social media penetration only 53.7%, indicating access barriers for older users.",
+      "category": "IT/технологии",
+      "severity": "low",
+      "frequency": "demographic gap in 2025",
+      "source": "DataReportal[5]",
+      "quotes": [
+        "12.8 million user identities aged 18 and above... equivalent to 53.7 percent of the total population aged 18 and above."
+      ],
+      "business_opportunity": "User-friendly social media training for seniors."
+    },
+    {
+      "pain": "Social media fuels grievances but leads to persecution over socio-economic concerns.",
+      "category": "IT/технологии",
+      "source": "IPHR[1]",
+      "quotes": [
+        "social media, which offers the potential to reach and unite users across Uzbekistan around political and socio-economic concerns and grievances.",
+        "significant growth in the number of cases of pressure... of those who criticised the authorities."
+      ],
+      "business_opportunity": "Moderated forums for safe discussion of economic issues."
+    },
+    {
+      "pain": "Low press freedom ranking reflects broader online censorship pressures.",
+      "category": "IT/технологии",
+      "severity": "high",
+      "frequency": "annual index 148/180",
+      "source": "RSF[7]",
+      "quotes": [
+        "Score: 37.27... Political indicator 152.",
+        "Following the 2016 death... circumstances have only barely improved for the media."
+      ],
+      "business_opportunity": "Digital literacy programs on safe online activism."
+    },
+    {
+      "pain": "Anonymous profiles targeted in new regulations, scaring off users.",
+      "category": "IT/технологии",
+      "severity": "medium",
+      "frequency": "in 2025 draft law",
+      "source": "Kun.uz[4]",
+      "quotes": [
+        "proposes modern solutions to address the issue of anonymous profiles, channels, and groups."
+      ],
+      "business_opportunity": "Verified anonymous identity services using blockchain."
+    }
+  ],
+  "top_categories": [
+    "IT/технологии",
+    "Свобода слова"
+  ],
+  "total_pains_found": 20,
+  "agent": "PainFinder",
+  "timestamp": "2026-01-14T13:03:06.690800"
+}

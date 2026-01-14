@@ -1,0 +1,58 @@
+{
+  "project_name": "HamxonaToshkent (RoommateTashkent)",
+  "architecture_type": "Serverless Modular Monolith",
+  "tech_stack": {
+    "frontend": "React (Vite) + TailwindCSS + shadcn/ui (Telegram Mini App)",
+    "backend": "Python (FastAPI)",
+    "database": "PostgreSQL (Supabase)",
+    "infrastructure": "Vercel (Frontend & Serverless Backend Functions)",
+    "bot_interface": "Aiogram (Python) running via Webhook"
+  },
+  "core_features": [
+    "User Onboarding: Telegram Login & Profile Creation (Age, Gender, Occupation, Budget)",
+    "Role Selection: 'I have a room' vs 'I need a room'",
+    "District Filtering: Tashkent districts (e.g., Chilonzor, Yunusobod, Mirzo Ulugbek)",
+    "Smart Feed: Card-swipe interface showing potential flatmates based on budget/location overlap",
+    "Habit Tags: Smoking, Pets, Night Owl/Early Bird, Student/Professional",
+    "Privacy First: Telegram @username is only revealed after a mutual 'Like'"
+  ],
+  "database_schema": "TABLE users (id UUID PK, telegram_id BIGINT UNIQUE, username TEXT, full_name TEXT, age INT, gender VARCHAR(10), role VARCHAR(10), budget_min INT, budget_max INT, preferred_districts TEXT[], bio TEXT, created_at TIMESTAMPTZ);\nTABLE user_habits (user_id UUID FK, habit_tag VARCHAR(50));\nTABLE interactions (id UUID PK, actor_id UUID FK, target_id UUID FK, action VARCHAR(10) CHECK (action IN ('like', 'pass')), created_at TIMESTAMPTZ);\nTABLE matches (id UUID PK, user_a UUID, user_b UUID, matched_at TIMESTAMPTZ);",
+  "api_endpoints": [
+    "POST /api/auth/telegram (Validate initData)",
+    "GET /api/profile/me (Get current user data)",
+    "PUT /api/profile (Update preferences/bio)",
+    "GET /api/recommendations (Get list of compatible users)",
+    "POST /api/interact (Body: {target_id, action: 'like'|'pass'})",
+    "GET /api/matches (List of mutual matches)"
+  ],
+  "file_structure": [
+    "backend/",
+    "  ├── main.py",
+    "  ├── config.py",
+    "  ├── routers/",
+    "  │   ├── auth.py",
+    "  │   ├── profile.py",
+    "  │   └── matching.py",
+    "  ├── services/",
+    "  │   └── recommendation_engine.py",
+    "  └── models/",
+    "      └── database.py",
+    "frontend/",
+    "  ├── src/",
+    "  │   ├── components/",
+    "  │   │   ├── SwipeCard.tsx",
+    "  │   │   └── ProfileForm.tsx",
+    "  │   ├── hooks/useTelegram.ts",
+    "  │   └── App.tsx",
+    "  └── vite.config.ts"
+  ],
+  "risk_assessment": "1. Cultural Sensitivity: Strict gender filtering is critical for the Tashkent market; failure here leads to user churn. 2. Safety/Scams: Real estate agents spamming the platform. Mitigation: Limit profile changes and require 'Student' or 'Working' verification tags later. 3. Platform Lock-in: Heavy reliance on Telegram API.",
+  "implementation_steps": [
+    "Step 1: Setup Supabase project and define SQL schema with RLS (Row Level Security).",
+    "Step 2: Initialize FastAPI backend on Vercel and set up Aiogram webhook for the /start command.",
+    "Step 3: Develop React Frontend (Mobile View) handling Telegram WebApp.initData for auth.",
+    "Step 4: Implement basic Profile CRUD and 'District' dropdowns specific to Tashkent.",
+    "Step 5: Build simple matching logic (SQL query filtering by Budget range AND Gender).",
+    "Step 6: Deploy to Vercel and link to Telegram Bot Father."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "strategy": {
+    "target_audience": {
+      "primary": "The 'Novostroyka' Owner (Tashkent)",
+      "demographics": "25-40 years old, lives in Yunusabad/Chilanzar/Mirabad, uses Payme/Click daily.",
+      "psychographics": "Values time over money. Fears 'remont' (renovation) disasters. Hates negotiating prices at the bazaar. Trusts Telegram over Google.",
+      "secondary": "The 'Digital Usta' (Master)",
+      "master_profile": "Skilled plumber tired of standing at Kuyluk bazaar waiting for work. Wants a steady stream of orders via phone."
+    },
+    "uvp": "TashkentPlumbFix: The 'Uber for Plumbers' inside your Telegram. No apps to download, no random prices. Verified masters in 3 clicks.",
+    "channels": [
+      "Telegram (Primary: Channel + Mini App)",
+      "Instagram (Reels for awareness/memes)",
+      "Local Facebook Groups (Potrebitel.uz - specifically for trust building)"
+    ],
+    "viral_mechanics": {
+      "loop_1": "The 'Mahalla Shield': Invite 3 neighbors to the bot, get 'Priority Status' (Master arrives in <30 mins). Logic: If your neighbor's pipe bursts, YOU get flooded too. It's in your interest to have them on the app.",
+      "loop_2": "Master Verification Badge: Masters get a generated 'ID Card' image to share on their status/stories, driving traffic back to the bot."
+    }
+  },
+  "content_plan": [
+    {
+      "day": 1,
+      "topic": "The Launch: The Nightmare Scenario",
+      "format": "Storytelling Post + Button to Mini App"
+    },
+    {
+      "day": 2,
+      "topic": "How it Works: No Calls, Just Clicks",
+      "format": "Video Screen Recording (GIF)"
+    },
+    {
+      "day": 3,
+      "topic": "Viral/Meme: The 'Usta' Stereotypes",
+      "format": "Meme Image"
+    },
+    {
+      "day": 4,
+      "topic": "Educational: 3 Things to do before the master arrives",
+      "format": "Checklist"
+    },
+    {
+      "day": 5,
+      "topic": "Social Proof: First Success Story",
+      "format": "Screenshot of user review"
+    },
+    {
+      "day": 6,
+      "topic": "Interactive: Rate your current plumbing",
+      "format": "Telegram Poll"
+    },
+    {
+      "day": 7,
+      "topic": "The 'Mahalla' Challenge (Referral Push)",
+      "format": "Contest Post"
+    }
+  ],
+  "posts": [
+    {
+      "type": "Launch Post",
+      "text": "🚰 **Tashkent, stop drowning! The solution is finally here.**\n\nWe all know the pain: It’s Sunday night, the pipe leaks, and the only contact you have is \"Usta Sobir\" who never picks up the phone.\n\nIntroducing **TashkentPlumbFix** — The first plumbing service that lives inside your Telegram.\n\n❌ No downloading shady apps.\n❌ No bargaining at the bazaar.\n✅ Open Telegram -> Click Start -> Master is on the way.\n\nWe connect you with verified masters nearby. Secure, fast, and transparent.\n\n👇 **Click below to open the Mini App and save us for your next emergency!**",
+      "image_prompt": "A split screen 3D render. Left side: A chaotic, flooded apartment in Tashkent with a stressed person holding a phone. Right side: A calm, clean interface of a Telegram Mini App with a green shield icon. High contrast, isometric view."
+    },
+    {
+      "type": "Educational",
+      "text": "🧠 **Lifehack: What to do while waiting for the Usta?**\n\nDon't just stand there with a bucket! If you have a leak, every second counts. Here is the TashkentPlumbFix protocol:\n\n1️⃣ **Shut the Main Valve:** Usually located behind the toilet or under the sink. Turn it clockwise until it stops.\n2️⃣ **Open the Faucets:** Drain the remaining water in the pipes to relieve pressure.\n3️⃣ **Take a Photo:** Upload it to our Mini App. This helps the master bring the exact right parts (no more \"I need to go buy a part\" delays).\n\n💡 *Did you know?* 40% of flood damage happens because people can't find the main valve. Go check yours right now!\n\n**Need a pro? Tap the button below.**",
+      "image_prompt": "A minimalist, flat-design infographic in blue and white tones. Step 1: Hand turning a valve. Step 2: Water draining from a tap. Step 3: Smartphone taking a photo of a pipe. Text labels in Russian/Uzbek style font."
+    },
+    {
+      "type": "Viral/Meme",
+      "text": "😅 **Expectation vs. Reality: The 'Usta' Edition**\n\n**Typical Master:**\n🗣 \"I'll be there in 5 minutes.\" (Actually implies: 2 hours)\n💰 \"Price? We'll see when I get there.\" (Implies: expensive)\n🛠 \"Who fixed this before? They were an idiot!\" (Standard greeting)\n\n**TashkentPlumbFix Master:**\n📍 GPS Tracked arrival.\n💸 Fixed price bidding system.\n⭐ Rated by neighbors like you.\n\nStop playing 'Plumber Roulette'. Switch to the modern way.\n\n🚀 **Send this to a friend who is currently doing 'Remont'!**",
+      "image_prompt": "A two-panel meme. Top panel: A disheveled plumber looking confused at a pipe with duct tape, labeled 'Old School Usta'. Bottom panel: A futuristic, well-equipped professional holding a tablet with the Telegram logo, labeled 'TashkentPlumbFix Master'."
+    }
+  ]
+}

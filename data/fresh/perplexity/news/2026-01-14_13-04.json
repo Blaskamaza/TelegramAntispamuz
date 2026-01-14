@@ -1,0 +1,148 @@
+{
+  "date": "2026-01-14",
+  "top_stories": [
+    {
+      "title": "Uzbekistan GDP hits record €123 billion as Mirziyoyev hails reforms",
+      "summary": "President Mirziyoyev announced record GDP of €123.25 billion, 23% export growth, €37 billion foreign investment, and gold reserves over €51 billion.",
+      "category": "economy",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2025/12/26/uzbekistan-gdp-hits-record-123-billion-as-mirziyoyev-hails-reforms",
+      "impact": "economic",
+      "opportunity": "Lower borrowing costs due to credit rating upgrade, support for SMEs and women entrepreneurs"
+    },
+    {
+      "title": "Uzbekistan 2026 Outlook: Sustained growth and reforms",
+      "summary": "GDP growth 6.8–7.6% in 2025, inflation at 7.5%, exports up 28% to $29bn, WTO accession in spring 2026, IT sector boom with unicorn Uzum.",
+      "category": "economy",
+      "source": "bne IntelliNews",
+      "url": "https://new.intellinews.com/articles/outlook-uzbekistan-2026-418523",
+      "impact": "economic",
+      "opportunity": "Investment in fintech, AI, e-commerce, regional hub for finance and technology"
+    },
+    {
+      "title": "IMF praises Uzbekistan's strong economy, projects 6% GDP growth in 2026",
+      "summary": "Real GDP up 7.6% in 2025 Q1-Q3, inflation easing to 7.8%, outlook positive with WTO accession targeted for March 2026.",
+      "category": "economy",
+      "source": "IMF",
+      "url": "https://www.imf.org/en/news/articles/2025/11/26/pr-25397-uzbekistan-imf-staff-concludes-visit",
+      "impact": "economic",
+      "opportunity": "Structural reforms in SOEs, anti-corruption to boost private sector and productivity"
+    },
+    {
+      "title": "Uzbekistan GDP to reach $167 billion in 2026 with 782 new projects",
+      "summary": "2025 GDP over $145bn, 2026 plans include $52bn in industrial projects, AI labs, data centers in healthcare, transport, agriculture.",
+      "category": "economy",
+      "source": "MENAFN",
+      "url": "https://menafn.com/1110590167/Uzbekistan-2026-Race-For-Leadership-And-New-Investments",
+      "impact": "economic",
+      "opportunity": "Digitalization, AI innovation, attracting international investors via guarantees"
+    },
+    {
+      "title": "Uzbekistan hosts 336 U.S. companies",
+      "summary": "As of Dec 1, 2025, 336 U.S.-capital enterprises, mostly in Tashkent; new Uzbekistan-U.S. Business Council launched.",
+      "category": "business",
+      "source": "The Times Of Central Asia",
+      "url": "https://timesca.com/uzbekistan-hosts-336-u-s-companies/",
+      "impact": "business",
+      "opportunity": "Deepened trade and investment ties with U.S."
+    },
+    {
+      "title": "Uzbek citizens allowed unrestricted investment in U.S. market from Jan 1, 2026",
+      "summary": "Presidential decree enables investments via personal accounts, establishes U.S.-Uzbekistan Business Council.",
+      "category": "business",
+      "source": "Qazinform",
+      "url": "https://qazinform.com/news/uzbekistan-greenlights-citizen-investment-in-us-market-ba3678",
+      "impact": "business",
+      "opportunity": "Direct access for citizens to U.S. markets and financing"
+    },
+    {
+      "title": "474,900 active enterprises in Uzbekistan as of Jan 1, 2026",
+      "summary": "85% are small businesses, reflecting business growth.",
+      "category": "business",
+      "source": "UzDaily",
+      "url": "https://www.uzdaily.uz/en/the-number-of-active-enterprises-and-organizations-in-uzbekistan-reaches-474900/",
+      "impact": "business",
+      "opportunity": "Expansion of private sector and entrepreneurship"
+    },
+    {
+      "title": "1,199 enterprises with Kazakh investment in Uzbekistan",
+      "summary": "Foreign trade turnover $72.8bn in Jan-Nov 2025, up 21.8%; trade with Kazakhstan increased.",
+      "category": "business",
+      "source": "Daryo.uz",
+      "url": "https://daryo.uz/en/2026/01/13/uzbekistan-hosts-1199-enterprises-with-kazakh-investment-across-key-sectors/",
+      "impact": "business",
+      "opportunity": "Strengthened regional trade partnerships"
+    },
+    {
+      "title": "Plans for first satellite launch and astronaut preparation",
+      "summary": "President announces satellite launch, astronaut program, tech hubs as part of reforms.",
+      "category": "technology",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2025/12/26/uzbekistan-gdp-hits-record-123-billion-as-mirziyoyev-hails-reforms",
+      "impact": "political",
+      "opportunity": "Space tech development and research investment"
+    },
+    {
+      "title": "IT sector growth with AI centers, satellite development",
+      "summary": "Fintech, AI, e-commerce expansion; Uzum unicorn status; open banking frameworks.",
+      "category": "technology",
+      "source": "bne IntelliNews",
+      "url": "https://new.intellinews.com/articles/outlook-uzbekistan-2026-418523",
+      "impact": "tech",
+      "opportunity": "International partnerships in AI and digital banking"
+    }
+  ],
+  "business_news": [
+    {
+      "title": "Uzbekistan hosts 336 U.S. companies",
+      "summary": "336 U.S.-capital enterprises as of Dec 2025, new Business Council.",
+      "source": "TimesCA",
+      "url": "https://timesca.com/uzbekistan-hosts-336-u-s-companies/"
+    },
+    {
+      "title": "Unrestricted U.S. investments for citizens from Jan 2026",
+      "summary": "Presidential decree lifts restrictions, creates investment council.",
+      "source": "Qazinform",
+      "url": "https://qazinform.com/news/uzbekistan-greenlights-citizen-investment-in-us-market-ba3678"
+    },
+    {
+      "title": "1,199 Kazakh-invested enterprises",
+      "summary": "Trade turnover up 21.8% to $72.8bn.",
+      "source": "Daryo.uz",
+      "url": "https://daryo.uz/en/2026/01/13/uzbekistan-hosts-1199-enterprises-with-kazakh-investment-across-key-sectors/"
+    }
+  ],
+  "tech_news": [
+    {
+      "title": "First satellite and astronaut program announced",
+      "summary": "Investment in space tech, research centers.",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2025/12/26/uzbekistan-gdp-hits-record-123-billion-as-mirziyoyev-hails-reforms"
+    },
+    {
+      "title": "AI labs, data centers, supercomputers in 2026",
+      "summary": "782 projects include digitalization in key sectors.",
+      "source": "MENAFN",
+      "url": "https://menafn.com/1110590167/Uzbekistan-2026-Race-For-Leadership-And-New-Investments"
+    },
+    {
+      "title": "IT boom: Fintech, AI, Uzum unicorn",
+      "summary": "Rapid expansion in digital sectors.",
+      "source": "bne IntelliNews",
+      "url": "https://new.intellinews.com/articles/outlook-uzbekistan-2026-418523"
+    }
+  ],
+  "economic_indicators": {
+    "usd_rate": "Not available in recent sources",
+    "inflation": "7.5-7.8% (late 2025 data, moderating toward 5% target by 2027)",
+    "key_updates": [
+      "GDP record €123bn/$145bn in 2025",
+      "Exports +23-28%",
+      "International reserves $61.2bn",
+      "WTO accession spring 2026"
+    ]
+  },
+  "summary": "Uzbekistan's economy shows robust momentum with record GDP, strong investment inflows from U.S. and Kazakhstan, IT/space tech advances, and reforms paving way for WTO entry and 6-7% growth in 2026.",
+  "agent": "NewsAggregator",
+  "timestamp": "2026-01-14T13:04:15.124104"
+}

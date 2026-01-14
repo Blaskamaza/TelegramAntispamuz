@@ -1,0 +1,2142 @@
+{
+  "date": "2026-01-13",
+  "queries": [
+    {
+      "query": "qanday pul ishlash",
+      "videos": [
+        {
+          "id": "vid001",
+          "title": "Qanday pul ishlash mumkin 2026",
+          "channel": "BiznesUZ",
+          "views": 125000,
+          "comments_count": 50,
+          "pains_count": 38,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 12
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 16
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 11
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 1
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 46
+            },
+            {
+              "text": "Ищу работу дистанционно, помогите!",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "помогите",
+                "ищу"
+              ],
+              "likes": 32
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 19
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 43
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 11
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 6
+            }
+          ]
+        },
+        {
+          "id": "vid002",
+          "title": "Uyda pul ishlash yo'llari",
+          "channel": "FreelanceUZ",
+          "views": 89000,
+          "comments_count": 50,
+          "pains_count": 37,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 43
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 41
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 40
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 24
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 17
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 41
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 3
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 1
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 19
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "как заработать в Ташкенте",
+      "videos": [
+        {
+          "id": "vid003",
+          "title": "5 способов заработка в Ташкенте",
+          "channel": "MoneyTashkent",
+          "views": 234000,
+          "comments_count": 50,
+          "pains_count": 36,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 28
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 31
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 7
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 50
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 8
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 38
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 35
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 37
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 3
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 23
+            }
+          ]
+        },
+        {
+          "id": "vid004",
+          "title": "Фриланс в Узбекистане - реальный опыт",
+          "channel": "ITuzb",
+          "views": 156000,
+          "comments_count": 50,
+          "pains_count": 38,
+          "top_pains": [
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 49
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 0
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 49
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 5
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 26
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 9
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 2
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 15
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 39
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "учёба в вузах узбекистана",
+      "videos": [
+        {
+          "id": "vid005",
+          "title": "Как поступить в вузы Узбекистана 2026",
+          "channel": "EduUZ",
+          "views": 312000,
+          "comments_count": 50,
+          "pains_count": 34,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 13
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 45
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 2
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 48
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 5
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 3
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 2
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 48
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 30
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 0
+            }
+          ]
+        },
+        {
+          "id": "vid006",
+          "title": "DTM подготовка - секреты",
+          "channel": "TestPro",
+          "views": 445000,
+          "comments_count": 50,
+          "pains_count": 36,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 37
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 21
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 23
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 2
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 21
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 27
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 33
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 2
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 38
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "домашний бизнес идеи",
+      "videos": [
+        {
+          "id": "mock_0",
+          "title": "Mock video about домашний бизнес идеи",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 37,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 46
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 16
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 2
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 50
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 37
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 7
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 25
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 43
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 27
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 27
+            }
+          ]
+        },
+        {
+          "id": "mock_1",
+          "title": "Mock video about домашний бизнес идеи",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 33,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 20
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 26
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 20
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 41
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 20
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 48
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 45
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 49
+            },
+            {
+              "text": "Ищу работу дистанционно, помогите!",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "помогите",
+                "ищу"
+              ],
+              "likes": 24
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 29
+            }
+          ]
+        },
+        {
+          "id": "mock_2",
+          "title": "Mock video about домашний бизнес идеи",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 37,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 39
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 3
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 39
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 43
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 6
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 35
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 24
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 27
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 20
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "онлайн работа узбекистан",
+      "videos": [
+        {
+          "id": "mock_0",
+          "title": "Mock video about онлайн работа узбекистан",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 35,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 17
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 19
+            },
+            {
+              "text": "Ищу работу дистанционно, помогите!",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "помогите",
+                "ищу"
+              ],
+              "likes": 28
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 37
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 48
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 6
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 12
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 23
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 10
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 33
+            }
+          ]
+        },
+        {
+          "id": "mock_1",
+          "title": "Mock video about онлайн работа узбекистан",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 29,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 13
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 35
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 38
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 8
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 49
+            },
+            {
+              "text": "Ищу работу дистанционно, помогите!",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "помогите",
+                "ищу"
+              ],
+              "likes": 33
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 35
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 38
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 22
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 39
+            }
+          ]
+        },
+        {
+          "id": "mock_2",
+          "title": "Mock video about онлайн работа узбекистан",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 37,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 24
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 42
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 45
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 15
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 24
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 32
+            },
+            {
+              "text": "Ищу работу дистанционно, помогите!",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "помогите",
+                "ищу"
+              ],
+              "likes": 3
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 42
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 50
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "фриланс узбекистан",
+      "videos": [
+        {
+          "id": "mock_0",
+          "title": "Mock video about фриланс узбекистан",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 41,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 29
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 34
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 12
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 2
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 16
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 18
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 7
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 19
+            },
+            {
+              "text": "Ищу работу дистанционно, помогите!",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "помогите",
+                "ищу"
+              ],
+              "likes": 1
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 8
+            }
+          ]
+        },
+        {
+          "id": "mock_1",
+          "title": "Mock video about фриланс узбекистан",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 35,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 16
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 8
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 21
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 22
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 23
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 32
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 20
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 8
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 47
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 23
+            }
+          ]
+        },
+        {
+          "id": "mock_2",
+          "title": "Mock video about фриланс узбекистан",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 35,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 29
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 4
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 24
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 34
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 37
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 38
+            },
+            {
+              "text": "Ищу работу дистанционно, помогите!",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "помогите",
+                "ищу"
+              ],
+              "likes": 32
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 48
+            },
+            {
+              "text": "Ищу работу дистанционно, помогите!",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "помогите",
+                "ищу"
+              ],
+              "likes": 42
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 39
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": "IT курсы ташкент",
+      "videos": [
+        {
+          "id": "mock_0",
+          "title": "Mock video about IT курсы ташкент",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 30,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 5
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 0
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 37
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 8
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 17
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 14
+            },
+            {
+              "text": "Ищу работу дистанционно, помогите!",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "помогите",
+                "ищу"
+              ],
+              "likes": 15
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 14
+            },
+            {
+              "text": "Не работает приложение, что делать?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "не работает"
+              ],
+              "likes": 49
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 13
+            }
+          ]
+        },
+        {
+          "id": "mock_1",
+          "title": "Mock video about IT курсы ташкент",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 30,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 3
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 2
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 48
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 9
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 33
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 43
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 43
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 2
+            },
+            {
+              "text": "Где найти дешевую аренду в Ташкенте?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 35
+            },
+            {
+              "text": "Qanday qilib ro'yxatdan o'tish mumkin?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "qanday"
+              ],
+              "likes": 39
+            }
+          ]
+        },
+        {
+          "id": "mock_2",
+          "title": "Mock video about IT курсы ташкент",
+          "channel": "MockChannel",
+          "views": 10000,
+          "comments_count": 50,
+          "pains_count": 34,
+          "top_pains": [
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 17
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 42
+            },
+            {
+              "text": "Kerak menga yordam, qanday qilish kerak?",
+              "type": "pain",
+              "score": 4,
+              "keywords": [
+                "?",
+                "yordam",
+                "qanday",
+                "kerak"
+              ],
+              "likes": 48
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 3
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 37
+            },
+            {
+              "text": "Подскажите где найти такую работу в Ташкенте?",
+              "type": "pain",
+              "score": 3,
+              "keywords": [
+                "?",
+                "где",
+                "подскажите"
+              ],
+              "likes": 11
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 1
+            },
+            {
+              "text": "Где купить дешевле в Узбекистане?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "где"
+              ],
+              "likes": 48
+            },
+            {
+              "text": "Сколько стоит обучение? Есть ли рассрочка?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "сколько стоит"
+              ],
+              "likes": 6
+            },
+            {
+              "text": "Как оплатить из Узбекистана?",
+              "type": "pain",
+              "score": 2,
+              "keywords": [
+                "?",
+                "как"
+              ],
+              "likes": 35
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_videos": 18,
+  "total_comments": 900,
+  "total_pains": 632
+}

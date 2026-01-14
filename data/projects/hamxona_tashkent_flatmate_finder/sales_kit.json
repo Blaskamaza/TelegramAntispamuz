@@ -1,0 +1,55 @@
+{
+  "landing_page": {
+    "headline": "STOP Paying 50% Commission to Maklers. Find Your Perfect Flatmate in Tashkent for $0.",
+    "subheadline": "The 'Tinder for Roommates' has arrived in Uzbekistan. 0% Commission. 100% Direct Contact. Join 5,000+ Students & Professionals finding homes without the drama.",
+    "cta_button": "🚀 START BOT & FIND ROOM (Free VIP Access)"
+  },
+  "outreach_message": {
+    "subject": "Quick Q for the [Group Name] Admin (Collaboration?)",
+    "body": "Salom [Name]! 👋\n\nI've been following [Group/Channel Name] and love how you support the student community in Tashkent.\n\nI noticed a big problem lately: Students are getting crushed by greedy Maklers charging 50% commission just to show a flat with broken AC.\n\nWe built a solution: **Hamxona** – The first 0% Commission Flatmate Finder Bot. It’s fully automated and free.\n\n**The Offer:** I want to give your subscribers a **'VIP Golden Ticket'** (usually requires referrals) to access unlimited contacts instantly. \n\nNo cost, no humans, just helping your community save money (Savob work!).\n\nCan I send you the unique link to pin for 24 hours?\n\nBest,\n[Your Name]"
+  },
+  "bot_flow": [
+    {
+      "step": 1,
+      "trigger": "/start",
+      "message": "🏠 **Xush kelibsiz (Welcome) to Hamxona!**\n\nWe are the #1 Anti-Makler Zone in Tashkent.\n\nHere is the truth: Rent is high. Commissions are a scam. Living alone is boring.\n\nWe match you with roommates who share your vibe, budget, and district preference.\n\n👇 **What is your status?**",
+      "buttons": [
+        "I HAVE a room (Need roommate)",
+        "I NEED a room (Searching)"
+      ]
+    },
+    {
+      "step": 2,
+      "trigger": "I NEED a room (Searching)",
+      "message": "Great. Let's find your match. 🕵️‍♂️\n\nTo ensure safety and quality, we require a quick profile setup. This keeps the creepy people out.\n\n**Select your preferred district in Tashkent:**",
+      "buttons": [
+        "Chilanzar",
+        "Mirzo Ulugbek",
+        "Yunusabad",
+        "Yakkasaray",
+        "Show All"
+      ]
+    },
+    {
+      "step": 3,
+      "trigger": "Chilanzar",
+      "message": "🔥 **We found 14 active matches in Chilanzar!**\n\nExamples:\n1. 2-room flat near Metro (Sharing with 1 student) - $150/mo\n2. 'Euro-renovation' near Rayhon (Looking for professional) - $200/mo\n\n**Want to see their photos and get their phone numbers?**",
+      "buttons": [
+        "👀 VIEW CONTACTS NOW"
+      ]
+    },
+    {
+      "step": 4,
+      "trigger": "👀 VIEW CONTACTS NOW",
+      "message": "🔒 **VIP ACCESS REQUIRED**\n\nHamxona is 100% Free, but we need your help to kill the Makler industry.\n\nTo unlock the phone numbers of these landlords/roommates, you have 2 options:\n\n1️⃣ **The Viral Way (FREE):** Share your personal link to 3 friends or 1 Group Chat.\n2️⃣ **The Fast Way:** Pay 19,000 UZS for Instant 7-Day Access.\n\n*92% of users choose the Free option!*",
+      "buttons": [
+        "🔗 Get Referral Link (Free)",
+        "💳 Pay 19,000 UZS (Instant)"
+      ]
+    }
+  ],
+  "lead_magnet": {
+    "title": "The 'Bulletproof' Tashkent Rental Contract Template (Bilingual Uzb/Rus)",
+    "description": "Don't let your landlord raise the rent next month just because 'dollar oshdi' (dollar went up). This legally-vetted PDF template protects your rights, deposits, and price for 12 months. Free download inside the bot."
+  }
+}

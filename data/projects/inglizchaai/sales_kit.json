@@ -1,0 +1,54 @@
+{
+  "landing_page": {
+    "headline": "Stop Paying $100/Month for Private Tutors. Speak Fluent English with AI.",
+    "subheadline": "Meet InglizchaAI: The personal tutor that never sleeps, never judges your accent, and costs less than a Somsa. Practice speaking 24/7 directly in Telegram.",
+    "cta_button": "Start Speaking for Free 👉",
+    "social_proof_banner": "Used by 5,000+ Students for IELTS Preparation in Tashkent, Samarkand, and Bukhara."
+  },
+  "outreach_message": {
+    "target": "Telegram Channel Admins (English Learning Niches)",
+    "subject": "👋 Collaboration Proposal: 24/7 Speaking Practice for your subscribers",
+    "body": "Salom [Admin Name],\n\nI've been following [Channel Name] and love how you help students improve their grammar. \n\nHowever, most students in Uzbekistan have one big problem: **They know the rules, but are afraid to speak.**\n\nI built **InglizchaAI** to fix this. It's a Telegram bot that acts as a speaking partner, correcting mistakes instantly via voice.\n\n**The Proposal:**\nI'd like to give your subscribers a **VIP 50% Discount Code** unique to your channel.\n\n✅ You provide immense value (Speaking practice).\n✅ No cost to you.\n✅ It's fully automated.\n\nCheck it out here: @InglizchaAI_Bot. Let me know if you want the VIP code for your next post!\n\nBest,\nTeam InglizchaAI"
+  },
+  "bot_flow": [
+    {
+      "step": 1,
+      "trigger": "/start",
+      "message": "👋 **Salom! Welcome to InglizchaAI.**\n\nI am your new AI Speaking Partner. I am here to help you get a Band 7.0+ or just speak confidently!\n\nTo start, tell me: **Who are you?**",
+      "buttons": [
+        "🎓 Student (IELTS/Uni)",
+        "💼 Professional/Work",
+        "🧕 Just Learning"
+      ]
+    },
+    {
+      "step": 2,
+      "trigger": "User Selects Category",
+      "message": "Awesome! Let's test your level immediately. 🚀\n\n**Press the microphone button** 🎙 and answer this question in English:\n\n*\"What is your favorite traditional Uzbek food and why?\"*\n\n(Don't be shy, I am a robot, I don't judge!)",
+      "type": "await_voice_input"
+    },
+    {
+      "step": 3,
+      "trigger": "User Sends Voice",
+      "message": "🤖 **Analyzing your speech...**\n\n✅ Grammar: 85%\n✅ Pronunciation: 90%\n\n**Correction:** You said *\"I am like Palov\"*. \n💡 **Better:** *\"I like Palov\"* or *\"I enjoy Palov.\"*\n\nSee? I can help you fix these small mistakes instantly!",
+      "buttons": [
+        "🔥 Continue Practicing (Free)",
+        "👑 Unlock Unlimited AI"
+      ]
+    },
+    {
+      "step": 4,
+      "trigger": "Wait 24 Hours (If no purchase)",
+      "message": "⏰ **Your Free Daily Limit is almost up!**\n\nMost tutors charge **100,000 UZS** per hour.\nInglizchaAI costs just **29,000 UZS** for a WHOLE MONTH of unlimited speaking.\n\n🎁 **Bonus:** Subscribe today and get the *\"Top 100 IELTS Speaking Phrases\"* PDF for free.\n\nClick below to activate via Payme/Click.",
+      "buttons": [
+        "💳 Subscribe - 29,000 UZS",
+        "👥 Invite 3 Friends = Free Week"
+      ]
+    }
+  ],
+  "lead_magnet": {
+    "title": "The \"Anti-Stutter\" Speaking Kit",
+    "description": "A free PDF guide: '50 Sentences to Use When You Don't Know What to Say'. Plus, get 3 Days of Unlimited Voice Mode in the bot to practice them.",
+    "delivery_method": "Immediate download inside the Telegram Bot upon pressing '/start'."
+  }
+}

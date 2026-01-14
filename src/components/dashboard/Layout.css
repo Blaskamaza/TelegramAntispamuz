@@ -1,0 +1,228 @@
+.app-layout {
+    min-height: 100vh;
+    background: var(--bg-primary);
+}
+
+.main-content {
+    min-height: 100vh;
+    transition: margin-left 0.3s ease;
+}
+
+.content-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 32px 40px;
+}
+
+/* === Page Header === */
+.page-header {
+    margin-bottom: 32px;
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.page-header p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
+
+/* === Dashboard Grid === */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.main-content-area {
+    min-width: 0;
+}
+
+.sidebar-area {
+    min-width: 0;
+}
+
+/* === Pains Grid === */
+.pains-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 24px;
+}
+
+/* === Agents Grid === */
+.agents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.agent-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-fast);
+}
+
+.agent-card:hover {
+    border-color: #d4af37;
+    transform: translateY(-2px);
+}
+
+.agent-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.agent-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.agent-info h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.agent-info code {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    background: var(--bg-glass);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.agent-status {
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: rgba(16, 185, 129, 0.2);
+    color: #10b981;
+}
+
+.run-command {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    text-align: center;
+}
+
+.run-command p {
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+}
+
+.run-command code {
+    display: inline-block;
+    font-size: 1rem;
+    background: var(--bg-primary);
+    color: #d4af37;
+    padding: 12px 24px;
+    border-radius: var(--radius-md);
+    border: 1px dashed #d4af37;
+}
+
+/* === Settings === */
+.settings-info {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+}
+
+.settings-info h3 {
+    font-size: 1.125rem;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.settings-info h3:first-child {
+    margin-top: 0;
+}
+
+.settings-info pre {
+    background: var(--bg-primary);
+    padding: 16px;
+    border-radius: var(--radius-md);
+    font-size: 0.8125rem;
+    color: var(--text-secondary);
+    overflow-x: auto;
+}
+
+.settings-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.settings-info li {
+    padding: 8px 0;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.settings-info li:last-child {
+    border-bottom: none;
+}
+
+/* === Coming Soon === */
+.coming-soon {
+    background: var(--bg-secondary);
+    border: 2px dashed var(--border-color);
+    border-radius: var(--radius-xl);
+    padding: 80px 40px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.coming-soon-icon {
+    font-size: 4rem;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.coming-soon h3 {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin-bottom: 12px;
+}
+
+.coming-soon p {
+    color: var(--text-secondary);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* === Responsive === */
+@media (max-width: 1200px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        padding: 24px 16px;
+    }
+
+    .page-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .pains-grid {
+        grid-template-columns: 1fr;
+    }
+}

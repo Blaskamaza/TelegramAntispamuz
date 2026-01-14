@@ -1,0 +1,67 @@
+{
+  "strategy": {
+    "target_audience": "Gen Z and Millennials (18-30 years old) in Tashkent. Segments: 1) Students from regions (Viloyat) moving to the capital for university. 2) Young professionals wanting to move out of parents' houses but sensitive to rent prices. 3) 'Relocants' looking for Russian-speaking flatmates. They hate 'Maklers' (realtors) and high commissions.",
+    "uvp": "Hamxona is the 'Tinder for Roommates' in Tashkent. No greedy realtors (Maklers), no 50% commission fees, just direct peer-to-peer connections via a fast Telegram Bot. Find a flatmate who matches your vibe, not just your budget.",
+    "channels": [
+      "Telegram (Primary: Bot + Channel)",
+      "University Telegram Chats (Westminster, UWED, Amity, etc.)",
+      "Instagram Reels (Reposting TikTok style skits about bad roommates)",
+      "OLX (Guerrilla marketing: posting 'Roommate wanted' ads that lead to the bot)"
+    ],
+    "viral_mechanics": "The 'VIP Access' Loop: Users can search for 3 roommates for free. To unlock unlimited swipes or see contact details immediately, they must share their personal referral link to 3 friends or 1 group chat. This forces distribution into private networks."
+  },
+  "content_plan": [
+    {
+      "day": 1,
+      "topic": "The Manifesto: Death to Commission Fees",
+      "format": "Launch Post (Text + GIF)"
+    },
+    {
+      "day": 2,
+      "topic": "How to spot a red flag roommate in Tashkent",
+      "format": "Educational Checklist"
+    },
+    {
+      "day": 3,
+      "topic": "Meme: 'The Chilanzar vs. Yunusabad' roommate debate",
+      "format": "Viral Poll/Meme"
+    },
+    {
+      "day": 4,
+      "topic": "User Story: How Malika saved $200 using Hamxona",
+      "format": "Social Proof/Storytelling"
+    },
+    {
+      "day": 5,
+      "topic": "The 'Propiska' Guide for Students",
+      "format": "Educational Infographic"
+    },
+    {
+      "day": 6,
+      "topic": "Weekend Vibe Check: Party animal or Quiet reader?",
+      "format": "Interactive Button Poll"
+    },
+    {
+      "day": 7,
+      "topic": "Weekly Digest: Top 5 available rooms this week",
+      "format": "Listicle with photos"
+    }
+  ],
+  "posts": [
+    {
+      "type": "Launch Post",
+      "text": "🚀 TASHKENT, XAYR MAKLERLAR! (GOODBYE REALTORS!)\n\nLet’s be honest: Paying 50% commission just to find a room where the air conditioner actually works is a scam. 😤\n\nWe got tired of endless scrolling on OLX and weird Facebook groups. So we built **Hamxona**.\n\n🤖 **What is it?**\nA Telegram bot that finds you the perfect flatmate based on location, budget, and vibe.\n\n✅ **Why use it?**\n— 0% Commission.\n— No spam.\n— Filter by District (Chilanzar, Mirzo Ulugbek, Yakkasaray, etc.).\n\n👇 **Click START to find your new home**\n@HamxonaBot\n\n*P.S. Send this to a friend who is sleeping on a couch right now. Savob bo'ladi!*",
+      "image_prompt": "Cyberpunk style illustration of the Tashkent TV Tower, but the tower is made of neon connecting lines representing a social network. In the foreground, a smartphone displaying a 'Match' notification."
+    },
+    {
+      "type": "Educational",
+      "text": "🚩 **5 Red Flags When Choosing a Roommate in Tashkent**\n\nBefore you say 'Yes' and move your mattress in, check these vibes. We asked 500 students, and here is what they hate most:\n\n1️⃣ **The 'Ghost' Payer:** Says 'I'll pay rent on Monday' every single month. (Bro, the landlord is waiting outside).\n2️⃣ **The Plov Thief:** Eats your food but never buys groceries. 'I thought it was communal!' 🥘\n3️⃣ **The 24/7 Guest:** Their boyfriend/girlfriend practically lives there but pays $0 rent.\n4️⃣ **The AC dictator:** Keeps the AC on 18°C when it's freezing, or turns it off when it's +40°C outside to 'save money.'\n5️⃣ **No Boundaries:** Uses your towel. Just... don't.\n\n🛡️ **Protect yourself:** Use the **Hamxona Bot** to view verified profiles and habits before you meet.\n\n👉 @HamxonaBot",
+      "image_prompt": "A minimalist flat vector illustration divided into two sides. Left side: A messy room with a chaotic roommate. Right side: A clean, zen room with a happy roommate. Text overlay: 'Choose Wisely'."
+    },
+    {
+      "type": "Viral",
+      "text": "🤡 **Bingo: The 'Tashkent Rental' Experience**\n\nHow many points do you have?\n\n[ ] Landlord comes to check the flat at 7 AM on Sunday.\n[ ] 'Only for family' (but you are single students).\n[ ] The price is in USD but you pay in Soums at the bazaar rate.\n[ ] The apartment is 'Euro-renovation' (aka just new wallpaper).\n[ ] Internet cuts off when it rains.\n[ ] Your roommate invites 10 people for Osh without asking.\n\n**Score:**\n0-2: You are lucky.\n3-5: Average Tashkent life.\n6: You need **Hamxona** immediately.\n\n😂 **Share your score in the comments!** And tag a friend who suffers from this.\n\nFind a better place here: @HamxonaBot",
+      "image_prompt": "A Bingo card grid graphic. Each square contains a funny illustration of the text points (e.g., an angry landlord, a pile of cash, a router with a red light)."
+    }
+  ]
+}

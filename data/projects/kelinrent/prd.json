@@ -1,0 +1,37 @@
+{
+  "project_name": "KelinRent",
+  "problem": "Uzbek weddings involve immense social pressure to look expensive, but buying a $1,000+ dress for one day is financially draining. Currently, renting requires physically visiting chaotic bazaars (like Qatortol) or scattered boutiques, with opaque pricing and no central catalog to compare styles.",
+  "audience": [
+    "The Modern Bride (18-26): Tech-savvy, Instagram user, wants luxury looks on a budget, values time over bazaar haggling.",
+    "The Boutique Owner: Struggling with inconsistent foot traffic and manual scheduling via notebooks.",
+    "The 'Ex-Bride' Lender: Has a $2,000 dress sitting in a closet and wants to recoup costs via P2P rental."
+  ],
+  "user_stories": [
+    "As a Bride, I want to filter dresses by 'Hijab-friendly' or 'European style' so I don't waste time on irrelevant options.",
+    "As a Bride, I want to book a specific 1-hour fitting slot and pay a small deposit via Click/Payme to secure my time.",
+    "As a Boutique Owner, I want to receive fitting requests directly in Telegram so I don't miss customers while tending to the shop.",
+    "As a Lender, I want to hold the renter's passport details or a security deposit digitally to ensure my dress is returned safe."
+  ],
+  "features": {
+    "mvp": [
+      "Visual Catalog: High-res image feed with filters (Price, Size, Style, Location).",
+      "Booking System: Calendar for scheduling 'Fitting Appointments' (not immediate rental).",
+      "Local Payment Gateway: Click & Payme integration for small 'Fitting Deposits' (e.g., 50,000 UZS) to reduce no-shows.",
+      "Telegram Bot Integration: Automated reminders for appointments and location pins for boutiques.",
+      "Review System: photo-based reviews from real weddings to build trust."
+    ],
+    "future": [
+      "Home Try-On Service: Courier delivers 3 dresses for a home fitting session (Premium service).",
+      "AI Stylist: Upload a photo to see how the dress fits your body type.",
+      "Cross-selling: Makeup artists and photographers marketplace integration.",
+      "Dress Insurance: Coverage for accidental wine spills or tears during the wedding."
+    ]
+  },
+  "monetization": "Hybrid Model: 1. SaaS Subscription for Boutiques (Monthly fee to list inventory). 2. 'Fitting Fee' Commission (We take the small booking deposit as a service fee, or split it with the boutique). 3. Promoted Listings (Top of search results).",
+  "metrics": [
+    "150 confirmed fitting appointments in Month 1",
+    "30 Boutiques onboarded in Tashkent",
+    "Zero 'No-Show' rate (validated by deposit system)",
+    "Month-over-Month growth in inventory listings"
+  ]
+}

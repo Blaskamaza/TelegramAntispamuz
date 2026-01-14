@@ -1,0 +1,35 @@
+{
+  "project_name": "InglizchaAI",
+  "problem": "Traditional English learning centers in Uzbekistan are expensive ($50-100/mo) and geographically inaccessible for rural families. Furthermore, existing school curriculums focus on grammar, leaving students with zero speaking confidence and 'mute English' syndrome.",
+  "audience": [
+    "The Aspiring Student (8-16 y/o): Uses Telegram daily, loves games, shy to speak in class.",
+    "The Investor Parent: Wants a brighter future for their child, trusts Telegram, looks for affordable alternatives to private tutors."
+  ],
+  "user_stories": [
+    "As a student, I want to send a voice message in English and get instant AI feedback on my pronunciation, so I can improve without embarrassment.",
+    "As a student, I want to earn 'XP' and badges for daily streaks, so that learning feels like a game.",
+    "As a parent, I want to receive a weekly progress report via Telegram, so I know my money is being well spent.",
+    "As a parent, I want to pay for a subscription using Click or Payme directly inside the chat, so the process is frictionless."
+  ],
+  "features": {
+    "mvp": [
+      "Telegram Bot Interface: No app download required.",
+      "AI Voice Coach: STT (Speech-to-Text) + LLM correction + TTS (Text-to-Speech) for conversational practice.",
+      "Daily Micro-Lessons: 5-minute automated vocabulary and grammar drills pushed at 5 PM daily.",
+      "Gamification Engine: Daily streaks, simple leaderboard (local vs global), and virtual currency.",
+      "Local Payment Gateways: Direct integration with Click and Payme API for recurring payments."
+    ],
+    "future": [
+      "Peer-to-Peer Battles: Live quizzes against other students.",
+      "IELTS Mock Simulator: AI-driven speaking test scoring.",
+      "Video Avatar Mode: Generating a visual AI teacher for visual learners."
+    ]
+  },
+  "monetization": "Freemium Subscription Model. Free Tier: 10 mins/day conversation + basic vocab. Premium Tier (49,000 UZS/month): Unlimited AI voice conversation, detailed grammar correction, and parent dashboard.",
+  "metrics": [
+    "DAU (Daily Active Users): Target 5,000 in Month 3.",
+    "Voice Engagement: Average voice messages sent per user per day.",
+    "Retention: Day-30 retention rate > 25%.",
+    "Free-to-Paid Conversion: Target 4%."
+  ]
+}

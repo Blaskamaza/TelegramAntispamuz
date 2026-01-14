@@ -1,0 +1,210 @@
+{
+  "date": "2026-01-13",
+  "feeds_scanned": 4,
+  "feeds": [
+    {
+      "url": "https://daryo.uz/ru/rss",
+      "articles_count": 4,
+      "pains_count": 4,
+      "pain_articles": [
+        {
+          "title": "Онлайн-кредитование в Узбекистане: проблемы и решения",
+          "link": "https://daryo.uz/news/123",
+          "summary": "Многие граждане жалуются на сложность получения кредитов...",
+          "published": "2026-01-13T16:36:48.699492",
+          "source": "https://daryo.uz/ru/rss",
+          "pain_keywords": [],
+          "problem_keywords": [
+            "проблем",
+            "сложност"
+          ],
+          "relevance_score": 4
+        },
+        {
+          "title": "IT-сектор: где найти работу молодому специалисту",
+          "link": "https://daryo.uz/news/123",
+          "summary": "Нехватка вакансий для junior разработчиков...",
+          "published": "2026-01-13T16:36:48.699492",
+          "source": "https://daryo.uz/ru/rss",
+          "pain_keywords": [
+            "где"
+          ],
+          "problem_keywords": [
+            "нехватк"
+          ],
+          "relevance_score": 3
+        },
+        {
+          "title": "Доставка еды: цены выросли на 30%",
+          "link": "https://daryo.uz/news/123",
+          "summary": "Пользователи ищут альтернативы дорогим сервисам...",
+          "published": "2026-01-13T16:36:48.699492",
+          "source": "https://daryo.uz/ru/rss",
+          "pain_keywords": [
+            "ищу"
+          ],
+          "problem_keywords": [
+            "ищут"
+          ],
+          "relevance_score": 3
+        },
+        {
+          "title": "Подготовка к DTM-2026: советы экспертов",
+          "link": "https://daryo.uz/news/123",
+          "summary": "Тысячи абитуриентов нуждаются в помощи...",
+          "published": "2026-01-13T16:36:48.699492",
+          "source": "https://daryo.uz/ru/rss",
+          "pain_keywords": [],
+          "problem_keywords": [
+            "нужда"
+          ],
+          "relevance_score": 2
+        }
+      ]
+    },
+    {
+      "url": "https://kun.uz/rss",
+      "articles_count": 3,
+      "pains_count": 3,
+      "pain_articles": [
+        {
+          "title": "Фриланс в Узбекистане: как начать зарабатывать",
+          "link": "https://kun.uz/news/123",
+          "summary": "Вопрос вывода денег остается проблемой...",
+          "published": "2026-01-13T16:36:48.700493",
+          "source": "https://kun.uz/rss",
+          "pain_keywords": [
+            "как"
+          ],
+          "problem_keywords": [
+            "проблем"
+          ],
+          "relevance_score": 3
+        },
+        {
+          "title": "Женское предпринимательство: барьеры и возможности",
+          "link": "https://kun.uz/news/123",
+          "summary": "Ищут поддержку для открытия бизнеса...",
+          "published": "2026-01-13T16:36:48.700493",
+          "source": "https://kun.uz/rss",
+          "pain_keywords": [
+            "ищу"
+          ],
+          "problem_keywords": [
+            "ищут"
+          ],
+          "relevance_score": 3
+        },
+        {
+          "title": "Образование: нехватка репетиторов по точным наукам",
+          "link": "https://kun.uz/news/123",
+          "summary": "Родители жалуются на высокие цены...",
+          "published": "2026-01-13T16:36:48.700493",
+          "source": "https://kun.uz/rss",
+          "pain_keywords": [],
+          "problem_keywords": [
+            "нехватк"
+          ],
+          "relevance_score": 2
+        }
+      ]
+    },
+    {
+      "url": "https://gazeta.uz/rss",
+      "articles_count": 2,
+      "pains_count": 2,
+      "pain_articles": [
+        {
+          "title": "Автомобильный рынок: проблемы с запчастями",
+          "link": "https://gazeta.uz/news/123",
+          "summary": "Сервисы ищут поставщиков оригинальных деталей...",
+          "published": "2026-01-13T16:36:48.702489",
+          "source": "https://gazeta.uz/rss",
+          "pain_keywords": [
+            "ищу"
+          ],
+          "problem_keywords": [
+            "проблем",
+            "ищут"
+          ],
+          "relevance_score": 5
+        },
+        {
+          "title": "Рынок недвижимости: цены на аренду в Ташкенте",
+          "link": "https://gazeta.uz/news/123",
+          "summary": "Где найти доступное жилье молодым семьям?",
+          "published": "2026-01-13T16:36:48.702489",
+          "source": "https://gazeta.uz/rss",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "problem_keywords": [],
+          "relevance_score": 2
+        }
+      ]
+    },
+    {
+      "url": "https://repost.uz/rss",
+      "articles_count": 4,
+      "pains_count": 4,
+      "pain_articles": [
+        {
+          "title": "Онлайн-кредитование в Узбекистане: проблемы и решения",
+          "link": "https://daryo.uz/news/123",
+          "summary": "Многие граждане жалуются на сложность получения кредитов...",
+          "published": "2026-01-13T16:36:48.703490",
+          "source": "https://repost.uz/rss",
+          "pain_keywords": [],
+          "problem_keywords": [
+            "проблем",
+            "сложност"
+          ],
+          "relevance_score": 4
+        },
+        {
+          "title": "IT-сектор: где найти работу молодому специалисту",
+          "link": "https://daryo.uz/news/123",
+          "summary": "Нехватка вакансий для junior разработчиков...",
+          "published": "2026-01-13T16:36:48.704022",
+          "source": "https://repost.uz/rss",
+          "pain_keywords": [
+            "где"
+          ],
+          "problem_keywords": [
+            "нехватк"
+          ],
+          "relevance_score": 3
+        },
+        {
+          "title": "Доставка еды: цены выросли на 30%",
+          "link": "https://daryo.uz/news/123",
+          "summary": "Пользователи ищут альтернативы дорогим сервисам...",
+          "published": "2026-01-13T16:36:48.704022",
+          "source": "https://repost.uz/rss",
+          "pain_keywords": [
+            "ищу"
+          ],
+          "problem_keywords": [
+            "ищут"
+          ],
+          "relevance_score": 3
+        },
+        {
+          "title": "Подготовка к DTM-2026: советы экспертов",
+          "link": "https://daryo.uz/news/123",
+          "summary": "Тысячи абитуриентов нуждаются в помощи...",
+          "published": "2026-01-13T16:36:48.704080",
+          "source": "https://repost.uz/rss",
+          "pain_keywords": [],
+          "problem_keywords": [
+            "нужда"
+          ],
+          "relevance_score": 2
+        }
+      ]
+    }
+  ],
+  "total_articles": 13,
+  "total_pains": 13
+}

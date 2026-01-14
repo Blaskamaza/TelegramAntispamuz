@@ -1,0 +1,34 @@
+{
+  "opportunities": [
+    {
+      "title": "Renewable Energy Projects in Uzbekistan",
+      "type": "Energy",
+      "potential": "High demand from government reforms and international partnerships; low supply due to emerging infrastructure needs, with incentives like tax benefits and foreign investment support[1][2][4]"
+    },
+    {
+      "title": "IT and Digital Services Hub in Uzbekistan",
+      "type": "Technology",
+      "potential": "Growing skilled workforce in data engineering, cloud tech, and AI; low competition with state-backed IT Park tax incentives and advanced digital infrastructure attracting global firms[6][4]"
+    },
+    {
+      "title": "Tourism and HoReCa Services Expansion",
+      "type": "Hospitality",
+      "potential": "Rapid sector growth fueled by cultural heritage sites; high demand for hospitality and services with limited local supply amid increasing tourist influx[1][2]"
+    },
+    {
+      "title": "Agribusiness Modernization and Agro-Processing",
+      "type": "Agriculture",
+      "potential": "Abundant resources and export potential for fruits/vegetables; government-driven reforms create high demand for modernization tech with low current processing capacity[1][2][5]"
+    },
+    {
+      "title": "SME Support and Digital Financing Platforms",
+      "type": "Fintech/SME Services",
+      "potential": "Explosive SME growth with new loans, grants up to €46k, and online tools; underserved regional access despite high entrepreneurial demand[3]"
+    },
+    {
+      "title": "Logistics and Transport Infrastructure",
+      "type": "Logistics",
+      "potential": "Strategic Central Asia location for 70M+ market access; massive $52B projects in 2026 signal high demand, low supply in efficient trade hubs[1][2][4]"
+    }
+  ]
+}

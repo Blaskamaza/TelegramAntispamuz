@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-01-14 13:12",
+  "hot_topics": [
+    {
+      "topic": "Uzbekistan army modernisation and Security Council meeting",
+      "category": "Defense/Politics",
+      "heat_score": 9,
+      "source": "Caliber.az [1], Daryo.uz [6]"
+    },
+    {
+      "topic": "Uzbekistan targets WTO accession by 2026",
+      "category": "Economy/Trade",
+      "heat_score": 8,
+      "source": "Caspianpost.com [3]"
+    },
+    {
+      "topic": "Uzbekistan's international reserves rise due to gold holdings",
+      "category": "Finance",
+      "heat_score": 7,
+      "source": "Trend.az [5], Daryo.uz [6]"
+    },
+    {
+      "topic": "No restrictions on Uzbek language in Afghanistan; new faculty planned",
+      "category": "International Relations",
+      "heat_score": 6,
+      "source": "Yuz.uz [4]"
+    },
+    {
+      "topic": "UN forecasts declining inflation in Uzbekistan to 2027",
+      "category": "Economy",
+      "heat_score": 5,
+      "source": "Trend.az [7]"
+    }
+  ],
+  "trending_searches": [
+    "Uzbekistan Security Council meeting",
+    "Uzbekistan WTO accession 2026",
+    "Uzbekistan gold reserves January 2026",
+    "Uzbek language Afghanistan",
+    "Uzbekistan army drones UAV"
+  ],
+  "viral_content": [
+    "President Mirziyoyev's speech on army tech upgrades, drone units, e-sports in military [1][6]",
+    "Signing of WTO protocol with Russia during Mirziyoyev's visit [3]"
+  ],
+  "business_implications": [
+    "WTO entry by 2026 boosts trade integration and market access for Uzbek exports [3]",
+    "Rising gold reserves signal economic stability, attracting foreign investment [5][6]",
+    "Declining inflation forecast (7.1% in 2026) supports business planning and consumer spending [7]",
+    "New chemical production (cyanide salts) in Navoiy enhances industrial output [8]",
+    "Iraqi business delegation (200 entrepreneurs) opens B2B opportunities in Tashkent/Samarkand [2]"
+  ]
+}

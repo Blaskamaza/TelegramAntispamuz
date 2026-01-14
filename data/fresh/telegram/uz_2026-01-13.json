@@ -1,0 +1,472 @@
+{
+  "date": "2026-01-13",
+  "channels_scanned": 12,
+  "channels": [
+    {
+      "name": "@alifshop_uz",
+      "posts_count": 3,
+      "pains_count": 3,
+      "pain_posts": [
+        {
+          "id": "@alifshop_uz_0",
+          "text": "🛍️ Скидки до 50% на бытовую технику! Где купить холодильник дешевле?",
+          "views": 9721,
+          "date": "2026-01-08T16:36:48.643933",
+          "channel": "@alifshop_uz",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@alifshop_uz_1",
+          "text": "💳 Рассрочка 0% на 24 месяца. Как оформить?",
+          "views": 5528,
+          "date": "2026-01-08T16:36:48.643933",
+          "channel": "@alifshop_uz",
+          "pain_keywords": [
+            "?",
+            "как"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@alifshop_uz_2",
+          "text": "❓ Вопрос от подписчика: где проверить статус заказа?",
+          "views": 7246,
+          "date": "2026-01-12T16:36:48.643933",
+          "channel": "@alifshop_uz",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "pain_score": 2
+        }
+      ]
+    },
+    {
+      "name": "@tashkent_help",
+      "posts_count": 5,
+      "pains_count": 5,
+      "pain_posts": [
+        {
+          "id": "@tashkent_help_1",
+          "text": "Подскажите где сделать справку быстро?",
+          "views": 6501,
+          "date": "2026-01-12T16:36:48.644931",
+          "channel": "@tashkent_help",
+          "pain_keywords": [
+            "?",
+            "где",
+            "подскажите"
+          ],
+          "pain_score": 3
+        },
+        {
+          "id": "@tashkent_help_3",
+          "text": "Сколько стоит замена паспорта?",
+          "views": 2230,
+          "date": "2026-01-08T16:36:48.644931",
+          "channel": "@tashkent_help",
+          "pain_keywords": [
+            "?",
+            "сколько стоит"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@tashkent_help_4",
+          "text": "Где оформить кредит без отказа?",
+          "views": 9597,
+          "date": "2026-01-10T16:36:48.644931",
+          "channel": "@tashkent_help",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@tashkent_help_0",
+          "text": "Помогите найти хорошего стоматолога в Юнусабаде",
+          "views": 6067,
+          "date": "2026-01-09T16:36:48.644931",
+          "channel": "@tashkent_help",
+          "pain_keywords": [
+            "помогите"
+          ],
+          "pain_score": 1
+        },
+        {
+          "id": "@tashkent_help_2",
+          "text": "Ищу репетитора по математике для 9 класса",
+          "views": 7628,
+          "date": "2026-01-12T16:36:48.644931",
+          "channel": "@tashkent_help",
+          "pain_keywords": [
+            "ищу"
+          ],
+          "pain_score": 1
+        }
+      ]
+    },
+    {
+      "name": "@ishbilish",
+      "posts_count": 4,
+      "pains_count": 3,
+      "pain_posts": [
+        {
+          "id": "@ishbilish_3",
+          "text": "Нужен программист на удаленку, подскажите где искать?",
+          "views": 13706,
+          "date": "2026-01-06T16:36:48.645933",
+          "channel": "@ishbilish",
+          "pain_keywords": [
+            "?",
+            "где",
+            "нужен",
+            "подскажите"
+          ],
+          "pain_score": 4
+        },
+        {
+          "id": "@ishbilish_2",
+          "text": "Как правильно составить резюме? Подскажите!",
+          "views": 1548,
+          "date": "2026-01-08T16:36:48.645933",
+          "channel": "@ishbilish",
+          "pain_keywords": [
+            "?",
+            "подскажите",
+            "как"
+          ],
+          "pain_score": 3
+        },
+        {
+          "id": "@ishbilish_0",
+          "text": "Ищу работу! SMM-менеджер, опыт 2 года. Помогите найти!",
+          "views": 9595,
+          "date": "2026-01-11T16:36:48.645933",
+          "channel": "@ishbilish",
+          "pain_keywords": [
+            "помогите",
+            "ищу"
+          ],
+          "pain_score": 2
+        }
+      ]
+    },
+    {
+      "name": "@dentest_uz",
+      "posts_count": 3,
+      "pains_count": 3,
+      "pain_posts": [
+        {
+          "id": "@dentest_uz_1",
+          "text": "Какие книги нужны для поступления? Помогите!",
+          "views": 10565,
+          "date": "2026-01-08T16:36:48.647538",
+          "channel": "@dentest_uz",
+          "pain_keywords": [
+            "?",
+            "помогите",
+            "как"
+          ],
+          "pain_score": 3
+        },
+        {
+          "id": "@dentest_uz_0",
+          "text": "📚 Подготовка к DTM-2026. Сколько стоит курс?",
+          "views": 6036,
+          "date": "2026-01-11T16:36:48.647538",
+          "channel": "@dentest_uz",
+          "pain_keywords": [
+            "?",
+            "сколько стоит"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@dentest_uz_2",
+          "text": "Результаты пробного теста. Где проверить?",
+          "views": 4555,
+          "date": "2026-01-11T16:36:48.647538",
+          "channel": "@dentest_uz",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "pain_score": 2
+        }
+      ]
+    },
+    {
+      "name": "@moda_tashkent",
+      "posts_count": 3,
+      "pains_count": 2,
+      "pain_posts": [
+        {
+          "id": "@moda_tashkent_1",
+          "text": "Вопрос: где найти информацию о @moda_tashkent?",
+          "views": 867,
+          "date": "2026-01-08T16:36:48.648064",
+          "channel": "@moda_tashkent",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@moda_tashkent_2",
+          "text": "Помогите разобраться с услугами @moda_tashkent",
+          "views": 13763,
+          "date": "2026-01-10T16:36:48.648064",
+          "channel": "@moda_tashkent",
+          "pain_keywords": [
+            "помогите"
+          ],
+          "pain_score": 1
+        }
+      ]
+    },
+    {
+      "name": "@kredituz",
+      "posts_count": 3,
+      "pains_count": 2,
+      "pain_posts": [
+        {
+          "id": "@kredituz_1",
+          "text": "Вопрос: где найти информацию о @kredituz?",
+          "views": 3854,
+          "date": "2026-01-07T16:36:48.648319",
+          "channel": "@kredituz",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@kredituz_2",
+          "text": "Помогите разобраться с услугами @kredituz",
+          "views": 2243,
+          "date": "2026-01-06T16:36:48.648319",
+          "channel": "@kredituz",
+          "pain_keywords": [
+            "помогите"
+          ],
+          "pain_score": 1
+        }
+      ]
+    },
+    {
+      "name": "@yurist_tashkent",
+      "posts_count": 3,
+      "pains_count": 2,
+      "pain_posts": [
+        {
+          "id": "@yurist_tashkent_1",
+          "text": "Вопрос: где найти информацию о @yurist_tashkent?",
+          "views": 1432,
+          "date": "2026-01-06T16:36:48.648903",
+          "channel": "@yurist_tashkent",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@yurist_tashkent_2",
+          "text": "Помогите разобраться с услугами @yurist_tashkent",
+          "views": 9178,
+          "date": "2026-01-07T16:36:48.648903",
+          "channel": "@yurist_tashkent",
+          "pain_keywords": [
+            "помогите"
+          ],
+          "pain_score": 1
+        }
+      ]
+    },
+    {
+      "name": "@yemekuzb",
+      "posts_count": 3,
+      "pains_count": 2,
+      "pain_posts": [
+        {
+          "id": "@yemekuzb_1",
+          "text": "Вопрос: где найти информацию о @yemekuzb?",
+          "views": 2729,
+          "date": "2026-01-07T16:36:48.649838",
+          "channel": "@yemekuzb",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@yemekuzb_2",
+          "text": "Помогите разобраться с услугами @yemekuzb",
+          "views": 1208,
+          "date": "2026-01-06T16:36:48.649838",
+          "channel": "@yemekuzb",
+          "pain_keywords": [
+            "помогите"
+          ],
+          "pain_score": 1
+        }
+      ]
+    },
+    {
+      "name": "@konsultantuz",
+      "posts_count": 3,
+      "pains_count": 2,
+      "pain_posts": [
+        {
+          "id": "@konsultantuz_1",
+          "text": "Вопрос: где найти информацию о @konsultantuz?",
+          "views": 8048,
+          "date": "2026-01-11T16:36:48.649838",
+          "channel": "@konsultantuz",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@konsultantuz_2",
+          "text": "Помогите разобраться с услугами @konsultantuz",
+          "views": 8387,
+          "date": "2026-01-09T16:36:48.649838",
+          "channel": "@konsultantuz",
+          "pain_keywords": [
+            "помогите"
+          ],
+          "pain_score": 1
+        }
+      ]
+    },
+    {
+      "name": "@it_park_uz",
+      "posts_count": 3,
+      "pains_count": 2,
+      "pain_posts": [
+        {
+          "id": "@it_park_uz_0",
+          "text": "Бесплатные IT курсы для девушек! Как записаться?",
+          "views": 10775,
+          "date": "2026-01-09T16:36:48.650850",
+          "channel": "@it_park_uz",
+          "pain_keywords": [
+            "?",
+            "как"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@it_park_uz_2",
+          "text": "Стажировка в IT компании. Требования?",
+          "views": 7759,
+          "date": "2026-01-07T16:36:48.650850",
+          "channel": "@it_park_uz",
+          "pain_keywords": [
+            "?"
+          ],
+          "pain_score": 1
+        }
+      ]
+    },
+    {
+      "name": "@freelanceuz",
+      "posts_count": 4,
+      "pains_count": 4,
+      "pain_posts": [
+        {
+          "id": "@freelanceuz_2",
+          "text": "Подскажите где найти клиентов на копирайтинг?",
+          "views": 6343,
+          "date": "2026-01-11T16:36:48.651839",
+          "channel": "@freelanceuz",
+          "pain_keywords": [
+            "?",
+            "где",
+            "подскажите"
+          ],
+          "pain_score": 3
+        },
+        {
+          "id": "@freelanceuz_0",
+          "text": "Как начать фрилансить в Узбекистане?",
+          "views": 7306,
+          "date": "2026-01-10T16:36:48.651839",
+          "channel": "@freelanceuz",
+          "pain_keywords": [
+            "?",
+            "как"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@freelanceuz_3",
+          "text": "Проблема с выводом денег из Upwork. Что делать?",
+          "views": 12012,
+          "date": "2026-01-13T16:36:48.651839",
+          "channel": "@freelanceuz",
+          "pain_keywords": [
+            "?",
+            "проблема"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@freelanceuz_1",
+          "text": "Ищу заказчиков на веб-дизайн. Портфолио в посте",
+          "views": 6865,
+          "date": "2026-01-07T16:36:48.651839",
+          "channel": "@freelanceuz",
+          "pain_keywords": [
+            "ищу"
+          ],
+          "pain_score": 1
+        }
+      ]
+    },
+    {
+      "name": "@turizm_uz",
+      "posts_count": 3,
+      "pains_count": 2,
+      "pain_posts": [
+        {
+          "id": "@turizm_uz_1",
+          "text": "Вопрос: где найти информацию о @turizm_uz?",
+          "views": 9919,
+          "date": "2026-01-12T16:36:48.652840",
+          "channel": "@turizm_uz",
+          "pain_keywords": [
+            "?",
+            "где"
+          ],
+          "pain_score": 2
+        },
+        {
+          "id": "@turizm_uz_2",
+          "text": "Помогите разобраться с услугами @turizm_uz",
+          "views": 9012,
+          "date": "2026-01-07T16:36:48.652840",
+          "channel": "@turizm_uz",
+          "pain_keywords": [
+            "помогите"
+          ],
+          "pain_score": 1
+        }
+      ]
+    }
+  ],
+  "total_posts": 40,
+  "total_pains": 32
+}
