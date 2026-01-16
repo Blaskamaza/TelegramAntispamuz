@@ -230,6 +230,84 @@ class AgentRunner:
                 return -1
         return -1
     
+    def wait_for_completion(self, timeout: int = 300, poll_interval: float = 1.0) -> bool:
+        """
+        Block until agent completes or timeout.
+        
+        This is the main method for Boss to wait for agents.
+        Provides better feedback than raw wait().
+        
+        Args:
+            timeout: Maximum seconds to wait (default: 5 minutes)
+            poll_interval: Seconds between status checks
+            
+        Returns:
+            True if agent completed successfully (exit code 0)
+            False if timeout or error
+        """
+        if not self.process and not self.is_running():
+            logger.warning("No agent process to wait for")
+            return False
+        
+        start_time = time.time()
+        
+        while time.time() - start_time < timeout:
+            # Check if still running
+            if self.process:
+                poll_result = self.process.poll()
+                if poll_result is not None:
+                    # Process finished
+                    success = poll_result == 0
+                    self._cleanup()
+                    logger.info(f"✅ Agent completed (exit code: {poll_result})")
+                    return success
+            elif not self.is_running():
+                # Process finished (was started externally)
+                self._cleanup()
+                return True
+            
+            time.sleep(poll_interval)
+        
+        # Timeout reached
+        logger.warning(f"⚠️ Agent timeout after {timeout}s, killing...")
+        self.stop()
+        return False
+    
+    async def wait_for_completion_async(self, timeout: int = 300, poll_interval: float = 1.0) -> bool:
+        """
+        Async version of wait_for_completion.
+        
+        Use with asyncio.gather() for parallel agent execution.
+        
+        Args:
+            timeout: Maximum seconds to wait
+            poll_interval: Seconds between status checks
+            
+        Returns:
+            True if agent completed successfully
+        """
+        import asyncio
+        
+        start_time = time.time()
+        
+        while time.time() - start_time < timeout:
+            if self.process:
+                poll_result = self.process.poll()
+                if poll_result is not None:
+                    success = poll_result == 0
+                    self._cleanup()
+                    logger.info(f"✅ Agent completed (exit code: {poll_result})")
+                    return success
+            elif not self.is_running():
+                self._cleanup()
+                return True
+            
+            await asyncio.sleep(poll_interval)
+        
+        logger.warning(f"⚠️ Agent timeout after {timeout}s, killing...")
+        self.stop()
+        return False
+    
     # === Private Methods ===
     
     def _process_exists(self, pid: int) -> bool:

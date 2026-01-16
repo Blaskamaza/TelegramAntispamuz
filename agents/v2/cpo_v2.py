@@ -69,8 +69,12 @@ class CPOv2(BaseAgent):
         
         self.logger.info(f"🧠 CPOv2: Generating PRD for '{idea}'...")
         
-        # Build prompt that triggers skill discovery
-        prompt = f"""
+        # V2: Start heartbeat for progress tracking
+        self._start_heartbeat()
+        
+        try:
+            # Build prompt that triggers skill discovery
+            prompt = f"""
 You are the Chief Product Officer analyzing a new product idea.
 
 IDEA: {idea}
@@ -90,8 +94,7 @@ Your task:
 
 Output format: JSON with all sections.
 """
-        
-        try:
+            
             # V2: Uses agentic skill discovery
             response = self.generate_with_skills(
                 prompt=prompt,
@@ -104,7 +107,7 @@ Output format: JSON with all sections.
             prd = self._extract_json(response)
             
             # Track which skills were used
-            skills_used = [skill.name for skill in self._active_skills] if self._active_skills else []
+            skills_used = list(self._active_skills.keys()) if self._active_skills else []
             
             # Save to worktree if available
             if self.worktree:
@@ -119,6 +122,9 @@ Output format: JSON with all sections.
         except Exception as e:
             self.logger.error(f"❌ CPOv2 failed: {e}")
             return self.build_result(False, {}, str(e))
+        finally:
+            # Always stop heartbeat
+            self._stop_heartbeat()
     
     def _extract_json(self, text: str) -> Dict:
         """Extract JSON from LLM response."""

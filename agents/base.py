@@ -80,6 +80,15 @@ class BaseAgent(ABC):
         self.client: Optional[VertexClient] = None
         self.total_tokens = 0
         
+        # V2: Task context
+        self.task_id: Optional[str] = None
+        self._workspace_manager = None  # Lazy init
+        
+        # Heartbeat state
+        self._heartbeat_running = False
+        self._heartbeat_thread = None
+        self._heartbeat_interval = 10  # seconds
+        
         # Conversation history for multi-turn interactions
         self._conversation_history: List[Dict[str, str]] = []
         
@@ -179,6 +188,69 @@ class BaseAgent(ABC):
         Must be implemented by subclasses.
         """
         pass
+    
+    # === Heartbeat Methods (V2) ===
+    
+    def _get_workspace_manager(self):
+        """Lazy init WorkspaceManager."""
+        if self._workspace_manager is None:
+            try:
+                from services.workspace_manager import WorkspaceManager
+                self._workspace_manager = WorkspaceManager()
+            except ImportError:
+                self.logger.warning("⚠️ WorkspaceManager not available")
+                return None
+        return self._workspace_manager
+    
+    def _start_heartbeat(self) -> None:
+        """
+        Start background heartbeat thread.
+        
+        Writes to META.yml every _heartbeat_interval seconds.
+        Call this at the beginning of execute() in V2 agents.
+        """
+        import threading
+        
+        if not self.task_id:
+            self.logger.debug("No task_id set, skipping heartbeat")
+            return
+        
+        if self._heartbeat_running:
+            return
+        
+        self._heartbeat_running = True
+        self._heartbeat_thread = threading.Thread(target=self._heartbeat_loop, daemon=True)
+        self._heartbeat_thread.start()
+        self.logger.info(f"💓 Heartbeat started for task {self.task_id}")
+    
+    def _stop_heartbeat(self) -> None:
+        """Stop heartbeat thread."""
+        self._heartbeat_running = False
+        if self._heartbeat_thread:
+            self._heartbeat_thread.join(timeout=2)
+            self._heartbeat_thread = None
+        self.logger.debug("💓 Heartbeat stopped")
+    
+    def _heartbeat_loop(self) -> None:
+        """Background thread that writes heartbeat to META.yml."""
+        import time as time_module
+        
+        wm = self._get_workspace_manager()
+        if not wm:
+            self._heartbeat_running = False
+            return
+        
+        while self._heartbeat_running:
+            try:
+                wm.update_meta(self.task_id, {
+                    "last_heartbeat": datetime.now().isoformat(),
+                    "status": "running",
+                    "agent": self.name,
+                })
+            except Exception as e:
+                self.logger.debug(f"Heartbeat update failed: {e}")
+            
+            time_module.sleep(self._heartbeat_interval)
     
     # === Skills Methods ===
     

@@ -217,38 +217,101 @@ class TheBoss:
             print(f"   Worktree: {worktree}")
         except Exception as e:
             print(f"   ⚠️ Workspace might exist, trying to reuse... ({e})")
-            # If exists, we might want to continue or fail. For now, assume we can reuse.
+            worktree = Path(f"worktrees/feat-{task_id}")
         
-        # 2. Run CPO (Product Phase)
-        print("\n🧠 PHASE 1: PRODUCT STRATEGY (CPOv2)")
-        runner = AgentRunner(task_id, "cpo")
+        # 2. Run agents in parallel (Evening 2: Parallel V2 Pipeline)
+        print("\n🚀 PARALLEL EXECUTION: Starting all agents...")
+        
+        runners = {
+            "cpo": AgentRunner(task_id, "cpo"),
+            # Future: Add more agents here
+            # "tech_lead": AgentRunner(task_id, "tech_lead"),
+            # "cmo": AgentRunner(task_id, "cmo"),
+        }
+        
+        # Start all agents
+        pids = {}
+        for agent_name, runner in runners.items():
+            try:
+                pid = runner.start()
+                pids[agent_name] = pid
+                print(f"   🚀 {agent_name.upper()} started (PID: {pid})")
+            except Exception as e:
+                print(f"   ❌ Failed to start {agent_name}: {e}")
+        
+        if not pids:
+            return {"status": "FAIL", "error": "No agents started"}
+        
+        # Wait for all agents to complete
+        print("\n⏳ Waiting for all agents to complete...")
+        results = {}
+        
+        for agent_name, runner in runners.items():
+            if agent_name not in pids:
+                continue
+            
+            success = runner.wait_for_completion(timeout=300)
+            results[agent_name] = success
+            status = "✅" if success else "❌"
+            print(f"   {status} {agent_name.upper()} completed")
+        
+        # Check results
+        all_passed = all(results.values())
+        
+        if all_passed:
+            print("\n🎉 ALL AGENTS COMPLETED SUCCESSFULLY!")
+            print(f"   📄 Artifacts: worktrees/feat-{task_id}/")
+            
+            # Future: Auto-merge
+            # from tools import review
+            # review.auto_merge(task_id)
+            
+            return {"status": "PASS", "task_id": task_id, "worktree": str(worktree), "results": results}
+        else:
+            failed = [k for k, v in results.items() if not v]
+            print(f"\n⚠️ Some agents failed: {failed}")
+            return {"status": "PARTIAL", "task_id": task_id, "results": results}
+    
+    async def _run_v2_pipeline_async(self, idea: str, context: str):
+        """
+        Async V2 Pipeline: Uses asyncio.gather for true parallel execution.
+        """
+        import asyncio
+        
+        task_id = f"project-{hash(idea) % 10000:04d}"
+        print(f"📦 Creating Workspace: {task_id}")
         
         try:
-            pid = runner.start()
-            print(f"   🚀 CPO Agent started (PID: {pid})")
-            
-            # Wait for completion (simple polling for now)
-            print("   ⏳ Waiting for CPO...")
-            while runner.is_running():
-                time.sleep(1)
-                # Optional: stream logs here
-            
-            # Check result (exit code or log)
-            # Since AgentRunner.wait() returns exit code, but here we just polled is_running
-            # We can check logs or assume success if it stopped gracefully
-            
-            print("   ✅ CPO finished.")
-            print(f"   📄 Output: worktrees/feat-{task_id}/prd.md")
-            
-            # In a real V2 pipeline, we would trigger TechLead here
-            # For now, we just stop after CPO as per Vibe-Lite scope
-            
-            return {"status": "PASS", "task_id": task_id, "worktree": str(worktree)}
-            
-        except Exception as e:
-            print(f"❌ V2 Pipeline Failed: {e}")
-            runner.stop()
-            return {"status": "FAIL", "error": str(e)}
+            worktree = self.workspace_manager.create(task_id, idea, "boss")
+        except Exception:
+            worktree = Path(f"worktrees/feat-{task_id}")
+        
+        # Create runners
+        runners = {
+            "cpo": AgentRunner(task_id, "cpo"),
+            # "tech_lead": AgentRunner(task_id, "tech_lead"),
+        }
+        
+        # Start all
+        for name, runner in runners.items():
+            try:
+                runner.start()
+                print(f"   🚀 {name.upper()} started")
+            except Exception as e:
+                print(f"   ❌ {name} failed: {e}")
+        
+        # Wait for all using asyncio.gather
+        print("\n⏳ Waiting for agents (async)...")
+        results = await asyncio.gather(
+            *[r.wait_for_completion_async(timeout=300) for r in runners.values()],
+            return_exceptions=True
+        )
+        
+        # Map results back to agent names
+        result_map = dict(zip(runners.keys(), results))
+        
+        success = all(r is True for r in results)
+        return {"status": "PASS" if success else "PARTIAL", "task_id": task_id, "results": result_map}
 
     def run_with_ralph(self, idea: str, context: str = "") -> Dict:
         """
