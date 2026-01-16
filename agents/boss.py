@@ -268,6 +268,56 @@ class TheBoss:
             print(f"\n⚠️ Some agents failed: {failed}")
             return {"status": "PARTIAL", "task_id": task_id, "results": results}
     
+    def monitor_task(self, task_id: str, heartbeat_timeout: int = 30) -> bool:
+        """
+        Monitor a running task's heartbeat.
+        
+        Checks META.yml for last_heartbeat. If stale, kills the agent.
+        
+        Args:
+            task_id: Task to monitor
+            heartbeat_timeout: Seconds before considering agent dead
+            
+        Returns:
+            True if agent is alive, False if killed
+        """
+        from datetime import datetime, timedelta
+        
+        meta = self.workspace_manager.get_meta(task_id)
+        if not meta:
+            print(f"⚠️ No META.yml for task {task_id}")
+            return False
+        
+        last_heartbeat_str = meta.get("last_heartbeat")
+        if not last_heartbeat_str:
+            # No heartbeat yet, might be starting
+            return True
+        
+        try:
+            last_heartbeat = datetime.fromisoformat(last_heartbeat_str)
+            age = datetime.now() - last_heartbeat
+            
+            if age > timedelta(seconds=heartbeat_timeout):
+                print(f"💀 Task {task_id} heartbeat lost (age: {age.total_seconds():.0f}s)")
+                
+                # Kill the agent
+                runner = AgentRunner(task_id, meta.get("agent", "unknown"))
+                runner.stop()
+                
+                # Update status
+                self.workspace_manager.update_meta(task_id, {
+                    "status": "failed",
+                    "reason": "heartbeat_timeout"
+                })
+                
+                return False
+            
+            return True
+            
+        except Exception as e:
+            print(f"❌ Error monitoring {task_id}: {e}")
+            return True  # Don't kill on monitoring error
+    
     async def _run_v2_pipeline_async(self, idea: str, context: str):
         """
         Async V2 Pipeline: Uses asyncio.gather for true parallel execution.

@@ -100,7 +100,6 @@ app.include_router(agent_router)
 @app.get("/api/health")
 def health_check():
     """System health check with V2 pipeline status."""
-    from config import ENABLE_V2_AGENTS
     from services.workspace_manager import WorkspaceManager
     
     # Count worktrees
@@ -123,15 +122,26 @@ def health_check():
     return {
         "status": "healthy",
         "version": "2.0",
-        "v2_enabled": ENABLE_V2_AGENTS,
         "worktrees_active": worktree_count,
         "skills_available": skill_count,
         "endpoints": {
             "board": "/api/board/tasks",
             "agent": "/api/agent/run",
-            "factory": "/api/factory/run"
+            "factory": "/api/factory/run",
+            "vertex_health": "/api/health/vertex"
         }
     }
+
+
+@app.get("/api/health/vertex")
+def vertex_health():
+    """Vertex AI circuit breaker status."""
+    try:
+        from services.circuit_breaker import get_vertex_circuit_breaker
+        cb = get_vertex_circuit_breaker()
+        return cb.get_status()
+    except Exception as e:
+        return {"status": "unknown", "error": str(e)}
 
 # === Helper ===
 PROJECTS_DIR = BASE_DIR / "data" / "projects"
