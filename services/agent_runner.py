@@ -94,10 +94,14 @@ class AgentRunner:
         log_handle.flush()
         
         # Start process
+        # NOTE: Run from project root (not worktree) because agents import from project modules
+        # The worktree path is passed via AGENT_WORKTREE env var
+        project_root = Path.cwd()
+        
         try:
             self.process = subprocess.Popen(
                 cmd,
-                cwd=str(self.worktree),
+                cwd=str(project_root),  # Run from project root, not worktree
                 env=env,
                 stdout=log_handle,
                 stderr=subprocess.STDOUT,
