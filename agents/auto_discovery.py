@@ -19,6 +19,7 @@ Usage:
 import json
 import sys
 import os
+import asyncio
 from pathlib import Path
 from datetime import datetime, timedelta
 from typing import List, Dict, Optional
@@ -26,10 +27,11 @@ import hashlib
 import logging
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).parent))
 
 from services.workspace_manager import WorkspaceManager
 from services.agent_runner import AgentRunner
-from config import V2_MAX_PARALLEL_TASKS
+from config import V2_MAX_PARALLEL_TASKS, TELEGRAM_API_ID, TELEGRAM_API_HASH, TELEGRAM_SESSION_NAME, TELEGRAM_CHANNELS
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
 logger = logging.getLogger("AutoDiscovery")
@@ -104,12 +106,58 @@ class AutoDiscovery:
     
     def scan_telegram(self) -> List[Dict]:
         """
-        Scan Telegram channels for pains.
-        TODO: Integrate with tg_scanner.py
+        Scan Telegram channels for pains using tg_scanner.
         """
         logger.info("📱 Scanning Telegram channels...")
-        
-        # Mock data — in production, use tg_scanner
+
+        try:
+            from tg_scanner import TelegramScanner, extract_pains_from_posts, TELETHON_AVAILABLE
+
+            if not TELETHON_AVAILABLE:
+                logger.warning("⚠️ Telethon not available, using fallback")
+                return self._telegram_fallback()
+
+            # Run async scanner
+            async def _scan():
+                scanner = TelegramScanner(
+                    api_id=TELEGRAM_API_ID,
+                    api_hash=TELEGRAM_API_HASH,
+                    session_name=TELEGRAM_SESSION_NAME
+                )
+                try:
+                    connected = await scanner.connect()
+                    if not connected:
+                        return []
+
+                    # Scan limited channels to avoid rate limits
+                    channels_to_scan = TELEGRAM_CHANNELS[:10]
+                    data = await scanner.scan_all_channels(channels_to_scan, posts_per_channel=20)
+                    return data
+                finally:
+                    await scanner.disconnect()
+
+            data = asyncio.run(_scan())
+
+            # Extract pains from results
+            pains = []
+            for channel_data in data.get("channels", []):
+                for pain in channel_data.get("pains", [])[:5]:  # Top 5 per channel
+                    pains.append({
+                        "source": "telegram",
+                        "text": pain.get("text", ""),
+                        "channel": channel_data.get("channel", "unknown"),
+                        "score": pain.get("score", 0)
+                    })
+
+            logger.info(f"   ✅ Found {len(pains)} pains from Telegram")
+            return pains
+
+        except Exception as e:
+            logger.warning(f"⚠️ Telegram scan failed: {e}, using fallback")
+            return self._telegram_fallback()
+
+    def _telegram_fallback(self) -> List[Dict]:
+        """Fallback mock data when real scanner unavailable."""
         return [
             {"source": "telegram", "text": "Нужна автоматизация для фермеров Ферганы", "channel": "uzb_business"},
             {"source": "telegram", "text": "Проблема с учётом товаров на складах", "channel": "logistics_uz"},
@@ -117,12 +165,39 @@ class AutoDiscovery:
     
     def scan_xarid(self) -> List[Dict]:
         """
-        Scan Xarid.uz for procurement opportunities.
-        TODO: Integrate with xarid_scanner.py
+        Scan Xarid.uz for procurement opportunities using xarid_scanner.
         """
         logger.info("📋 Scanning Xarid.uz...")
-        
-        # Mock data — in production, use xarid_scanner
+
+        try:
+            from xarid_scanner import XaridScanner
+
+            scanner = XaridScanner()
+            result = scanner.execute()
+
+            if not result.success:
+                logger.warning(f"⚠️ Xarid scan failed: {result.error}")
+                return self._xarid_fallback()
+
+            # Convert lots to pains format
+            pains = []
+            for lot in result.data.get("lots", [])[:10]:  # Top 10 lots
+                pains.append({
+                    "source": "xarid",
+                    "text": lot.get("title", "Unknown procurement"),
+                    "url": lot.get("url", ""),
+                    "price": lot.get("price", "N/A")
+                })
+
+            logger.info(f"   ✅ Found {len(pains)} procurement opportunities")
+            return pains
+
+        except Exception as e:
+            logger.warning(f"⚠️ Xarid scan failed: {e}, using fallback")
+            return self._xarid_fallback()
+
+    def _xarid_fallback(self) -> List[Dict]:
+        """Fallback mock data when real scanner unavailable."""
         return [
             {"source": "xarid", "text": "Тендер на систему мониторинга теплиц", "tender_id": "XT-2026-001"},
         ]

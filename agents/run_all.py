@@ -97,16 +97,16 @@ def run_all_agents():
         log_action(f"RSS ошибка: {e}", "❌")
         print(f"❌ RSS error: {e}")
     
-    # 6. Auto-Discover
+    # 6. Channel Discovery
     try:
         print("\n" + "=" * 40)
-        log_action("Запуск Auto-Discover Agent")
-        from auto_discover import run as run_discover
-        results["discover"] = run_discover()
-        log_action("Auto-Discover завершен")
+        log_action("Запуск Channel Discovery Agent")
+        from channel_discovery import run_discovery
+        results["discover"] = run_discovery()
+        log_action("Channel Discovery завершен")
     except Exception as e:
-        log_action(f"Auto-Discover ошибка: {e}", "❌")
-        print(f"❌ Auto-Discover error: {e}")
+        log_action(f"Channel Discovery ошибка: {e}", "❌")
+        print(f"❌ Channel Discovery error: {e}")
     
     # 7. Pain Extractor
     try:

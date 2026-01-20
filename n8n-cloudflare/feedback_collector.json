@@ -1,0 +1,314 @@
+{
+    "name": "Feedback Collector",
+    "nodes": [
+        {
+            "parameters": {
+                "updates": [
+                    "message",
+                    "channel_post"
+                ],
+                "additionalFields": {}
+            },
+            "name": "Telegram Trigger",
+            "type": "n8n-nodes-base.telegramTrigger",
+            "typeVersion": 1,
+            "position": [
+                250,
+                300
+            ],
+            "credentials": {
+                "telegramApi": {
+                    "id": "1",
+                    "name": "Telegram account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "string": [
+                        {
+                            "value1": "={{$json.message.text}}",
+                            "operation": "contains",
+                            "value2": "/feedback"
+                        }
+                    ]
+                }
+            },
+            "name": "Check Feedback Command",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 1,
+            "position": [
+                450,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "functionCode": "// Extract feedback text after /feedback command\nconst message = $input.first().json.message;\nconst text = message.text || '';\nconst feedbackText = text.replace('/feedback', '').trim();\n\n// Extract user info\nconst user = message.from || {};\n\nreturn [{\n  json: {\n    feedback: feedbackText,\n    user_id: user.id,\n    username: user.username || 'anonymous',\n    first_name: user.first_name || '',\n    chat_id: message.chat.id,\n    timestamp: new Date().toISOString(),\n    source: 'telegram'\n  }\n}];"
+            },
+            "name": "Extract Feedback",
+            "type": "n8n-nodes-base.function",
+            "typeVersion": 1,
+            "position": [
+                650,
+                200
+            ]
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "http://host.docker.internal:8000/api/feedback",
+                "sendBody": true,
+                "bodyParameters": {
+                    "parameters": [
+                        {
+                            "name": "feedback",
+                            "value": "={{$json.feedback}}"
+                        },
+                        {
+                            "name": "user_id",
+                            "value": "={{$json.user_id}}"
+                        },
+                        {
+                            "name": "username",
+                            "value": "={{$json.username}}"
+                        },
+                        {
+                            "name": "source",
+                            "value": "={{$json.source}}"
+                        },
+                        {
+                            "name": "timestamp",
+                            "value": "={{$json.timestamp}}"
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "name": "Store Feedback",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 3,
+            "position": [
+                850,
+                200
+            ]
+        },
+        {
+            "parameters": {
+                "chatId": "={{$json.chat_id}}",
+                "text": "Thanks for your feedback! We'll review it and get back to you.\n\nYour feedback:\n\"{{$json.feedback}}\"",
+                "additionalFields": {}
+            },
+            "name": "Confirm to User",
+            "type": "n8n-nodes-base.telegram",
+            "typeVersion": 1,
+            "position": [
+                1050,
+                200
+            ],
+            "credentials": {
+                "telegramApi": {
+                    "id": "1",
+                    "name": "Telegram account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "chatId": "-1002268798360",
+                "text": "=📬 New Feedback Received!\n\nFrom: @{{$json.username}} ({{$json.first_name}})\nFeedback: {{$json.feedback}}\n\nTime: {{$json.timestamp}}",
+                "additionalFields": {}
+            },
+            "name": "Notify Admin",
+            "type": "n8n-nodes-base.telegram",
+            "typeVersion": 1,
+            "position": [
+                1250,
+                200
+            ],
+            "credentials": {
+                "telegramApi": {
+                    "id": "1",
+                    "name": "Telegram account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "string": [
+                        {
+                            "value1": "={{$json.message.text}}",
+                            "operation": "contains",
+                            "value2": "проблема"
+                        },
+                        {
+                            "value1": "={{$json.message.text}}",
+                            "operation": "contains",
+                            "value2": "не работает"
+                        },
+                        {
+                            "value1": "={{$json.message.text}}",
+                            "operation": "contains",
+                            "value2": "ошибка"
+                        }
+                    ]
+                },
+                "combineOperation": "any"
+            },
+            "name": "Check Pain Keywords",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 1,
+            "position": [
+                650,
+                400
+            ]
+        },
+        {
+            "parameters": {
+                "functionCode": "// Extract potential pain from message\nconst message = $input.first().json.message;\nconst text = message.text || '';\nconst user = message.from || {};\n\nreturn [{\n  json: {\n    pain_text: text,\n    user_id: user.id,\n    username: user.username || 'anonymous',\n    chat_id: message.chat.id,\n    chat_title: message.chat.title || 'private',\n    timestamp: new Date().toISOString(),\n    source: 'telegram_organic'\n  }\n}];"
+            },
+            "name": "Extract Pain",
+            "type": "n8n-nodes-base.function",
+            "typeVersion": 1,
+            "position": [
+                850,
+                400
+            ]
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "http://host.docker.internal:8000/api/pains/collect",
+                "sendBody": true,
+                "bodyParameters": {
+                    "parameters": [
+                        {
+                            "name": "text",
+                            "value": "={{$json.pain_text}}"
+                        },
+                        {
+                            "name": "source",
+                            "value": "={{$json.source}}"
+                        },
+                        {
+                            "name": "channel",
+                            "value": "={{$json.chat_title}}"
+                        },
+                        {
+                            "name": "timestamp",
+                            "value": "={{$json.timestamp}}"
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "name": "Store Pain",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 3,
+            "position": [
+                1050,
+                400
+            ]
+        }
+    ],
+    "connections": {
+        "Telegram Trigger": {
+            "main": [
+                [
+                    {
+                        "node": "Check Feedback Command",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Check Feedback Command": {
+            "main": [
+                [
+                    {
+                        "node": "Extract Feedback",
+                        "type": "main",
+                        "index": 0
+                    }
+                ],
+                [
+                    {
+                        "node": "Check Pain Keywords",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Extract Feedback": {
+            "main": [
+                [
+                    {
+                        "node": "Store Feedback",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Store Feedback": {
+            "main": [
+                [
+                    {
+                        "node": "Confirm to User",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Confirm to User": {
+            "main": [
+                [
+                    {
+                        "node": "Notify Admin",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Check Pain Keywords": {
+            "main": [
+                [
+                    {
+                        "node": "Extract Pain",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Extract Pain": {
+            "main": [
+                [
+                    {
+                        "node": "Store Pain",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "staticData": null,
+    "tags": [
+        {
+            "name": "feedback"
+        },
+        {
+            "name": "radar"
+        }
+    ]
+}

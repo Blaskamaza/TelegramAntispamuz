@@ -84,9 +84,9 @@ const INITIAL_AGENTS: Agent[] = [
         logs: [],
     },
     {
-        id: 'auto_discover',
-        name: 'Auto-Discover',
-        file: 'auto_discover.py',
+        id: 'channel_discovery',
+        name: 'Channel Discovery',
+        file: 'channel_discovery.py',
         icon: '🔍',
         status: 'idle',
         lastRun: null,
@@ -112,7 +112,7 @@ const MOCK_RESULTS: Record<string, Agent['lastResult']> = {
     telegram: { items: 40, pains: 32, duration: 3.2 },
     facebook: { items: 25, pains: 25, sources: 6, duration: 4.0 },
     rss: { items: 13, pains: 13, duration: 1.8 },
-    auto_discover: { sources: 20, duration: 2.5 },
+    channel_discovery: { sources: 20, duration: 2.5 },
     pain_extractor: { pains: 264, items: 8, duration: 3.7 },
 };
 
@@ -157,8 +157,8 @@ const MOCK_LOGS: Record<string, string[]> = {
         '📊 Total pains: 13',
         '✅ Saved to data/fresh/rss/',
     ],
-    auto_discover: [
-        '🔎 Auto-Discover starting...',
+    channel_discovery: [
+        '🔎 Channel Discovery starting...',
         '🔍 Searching: telegram канал бизнес узбекистан',
         '🔍 Searching: facebook группа работа ташкент',
         '📊 telegram: 7, facebook: 3, instagram: 3',

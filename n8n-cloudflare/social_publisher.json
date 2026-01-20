@@ -1,0 +1,253 @@
+{
+    "name": "Social Publisher",
+    "nodes": [
+        {
+            "parameters": {
+                "httpMethod": "POST",
+                "path": "publish",
+                "options": {}
+            },
+            "name": "Webhook",
+            "type": "n8n-nodes-base.webhook",
+            "typeVersion": 1,
+            "position": [
+                250,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "string": [
+                        {
+                            "value1": "={{$json.body.platform}}",
+                            "operation": "equals",
+                            "value2": "telegram"
+                        }
+                    ]
+                }
+            },
+            "name": "Route by Platform",
+            "type": "n8n-nodes-base.switch",
+            "typeVersion": 1,
+            "position": [
+                450,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "chatId": "={{$json.body.channel_id}}",
+                "text": "={{$json.body.content}}",
+                "additionalFields": {
+                    "parse_mode": "HTML"
+                }
+            },
+            "name": "Post to Telegram",
+            "type": "n8n-nodes-base.telegram",
+            "typeVersion": 1,
+            "position": [
+                700,
+                200
+            ],
+            "credentials": {
+                "telegramApi": {
+                    "id": "1",
+                    "name": "Telegram account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "http://host.docker.internal:8000/api/analytics/track",
+                "sendBody": true,
+                "bodyParameters": {
+                    "parameters": [
+                        {
+                            "name": "event",
+                            "value": "social_post"
+                        },
+                        {
+                            "name": "platform",
+                            "value": "={{$json.body.platform}}"
+                        },
+                        {
+                            "name": "project",
+                            "value": "={{$json.body.project_name}}"
+                        },
+                        {
+                            "name": "status",
+                            "value": "published"
+                        }
+                    ]
+                },
+                "options": {}
+            },
+            "name": "Track Analytics",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 3,
+            "position": [
+                900,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "chatId": "-1002268798360",
+                "text": "=📢 Published to {{$json.body.platform}}!\n\nProject: {{$json.body.project_name}}\nChannel: {{$json.body.channel_id}}\n\n✅ Success",
+                "additionalFields": {}
+            },
+            "name": "Notify Admin",
+            "type": "n8n-nodes-base.telegram",
+            "typeVersion": 1,
+            "position": [
+                1100,
+                300
+            ],
+            "credentials": {
+                "telegramApi": {
+                    "id": "1",
+                    "name": "Telegram account"
+                }
+            }
+        },
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "cronExpression",
+                            "expression": "0 9,14,19 * * *"
+                        }
+                    ]
+                }
+            },
+            "name": "Schedule (3x daily)",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1,
+            "position": [
+                250,
+                500
+            ]
+        },
+        {
+            "parameters": {
+                "method": "GET",
+                "url": "http://host.docker.internal:8000/api/content/pending",
+                "options": {}
+            },
+            "name": "Get Pending Posts",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 3,
+            "position": [
+                450,
+                500
+            ]
+        },
+        {
+            "parameters": {
+                "batchSize": 1,
+                "options": {}
+            },
+            "name": "Split Batches",
+            "type": "n8n-nodes-base.splitInBatches",
+            "typeVersion": 1,
+            "position": [
+                650,
+                500
+            ]
+        }
+    ],
+    "connections": {
+        "Webhook": {
+            "main": [
+                [
+                    {
+                        "node": "Route by Platform",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Route by Platform": {
+            "main": [
+                [
+                    {
+                        "node": "Post to Telegram",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Post to Telegram": {
+            "main": [
+                [
+                    {
+                        "node": "Track Analytics",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Track Analytics": {
+            "main": [
+                [
+                    {
+                        "node": "Notify Admin",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Schedule (3x daily)": {
+            "main": [
+                [
+                    {
+                        "node": "Get Pending Posts",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Get Pending Posts": {
+            "main": [
+                [
+                    {
+                        "node": "Split Batches",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Split Batches": {
+            "main": [
+                [
+                    {
+                        "node": "Route by Platform",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "staticData": null,
+    "tags": [
+        {
+            "name": "launchpad"
+        },
+        {
+            "name": "social"
+        }
+    ]
+}

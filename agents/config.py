@@ -6,6 +6,10 @@ UZ AI Factory — Конфигурация
 import os
 from datetime import datetime
 from pathlib import Path
+from dotenv import load_dotenv
+
+# === ЗАГРУЗКА .ENV ===
+load_dotenv()
 
 # === ПУТИ ===
 BASE_DIR = Path(__file__).parent.parent
@@ -64,12 +68,25 @@ GOOGLE_TRENDS_KEYWORDS = [
 ]
 
 # === VK API ===
+VK_SERVICE_KEY = os.getenv("VK_SERVICE_KEY", "")
+
+# === YOUTUBE API ===
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "")
+
+# === YOUTUBE ЗАПРОСЫ ===
+YOUTUBE_QUERIES = [
+    "qanday pul ishlash",
+    "как заработать в Ташкенте",
     "учёба в вузах узбекистана",
     "домашний бизнес идеи",
     "онлайн работа узбекистан",
     "фриланс узбекистан",
     "IT курсы ташкент",
 ]
+
+# === PERPLEXITY API ===
+PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
+PERPLEXITY_MODEL = "sonar"
 
 # === TELEGRAM API (Telethon) ===
 TELEGRAM_API_ID = int(os.getenv("TELEGRAM_API_ID", "33678302"))
@@ -138,15 +155,41 @@ BLACKLIST_KEYWORDS = [
 ]
 
 # === GEMINI CONFIG ===
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyB4wHZE-CbHK95TZhYiHsiMcMlFhP9nq58")
-GEMINI_PRO_MODEL = "gemini-3-pro-preview"
-GEMINI_FLASH_MODEL = "gemini-3-flash-preview"
-GEMINI_LITE_MODEL = "gemini-2.5-flash-lite"
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GEMINI_PRO_MODEL = "gemini-2.0-flash"
+GEMINI_FLASH_MODEL = "gemini-2.0-flash-lite-preview"
+GEMINI_LITE_MODEL = "gemini-2.0-flash-lite-preview"
 
 # Rate Limits (Tier 1 Paid)
 GEMINI_RPM = 60       # Requests Per Minute
 GEMINI_TPM = 1000000  # Tokens Per Minute
 GEMINI_RPD = 1000     # Requests Per Day
+
+# === VERTEX AI CONFIG ===
+VERTEX_PROJECT_ID = os.getenv("VERTEX_PROJECT_ID", "nodal-reserve-471921-n1")
+VERTEX_LOCATION = os.getenv("VERTEX_LOCATION", "us-central1")
+GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS", str(BASE_DIR / "credentials.json"))
+
+# Agent Builder RAG (Data Store создан через setup_gcp.py)
+DATA_STORE_ID = os.getenv("DATA_STORE_ID", "uz-factory-knowledge")
+
+# === GOOGLE CUSTOM SEARCH (for Smart Collector) ===
+GOOGLE_SEARCH_API_KEY = os.getenv("GOOGLE_SEARCH_API_KEY", "AIzaSyAyN1DEGhnOR66bDP9bPLDgP5ORXIGwCps")
+GOOGLE_SEARCH_ENGINE_ID = os.getenv("GOOGLE_SEARCH_ENGINE_ID", "b11cbf6e634d440e4")
+
+# === SUPABASE CONFIG ===
+SUPABASE_URL = os.getenv("SUPABASE_URL", "")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
+
+# === GITHUB CONFIG ===
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
+
+# === HUGGINGFACE CONFIG ===
+HF_TOKEN = os.getenv("HF_TOKEN", "")
+
+# === N8N CONFIG ===
+N8N_API_URL = os.getenv("N8N_API_URL", "http://localhost:5678")
+N8N_TEMPLATES_API = "https://api.n8n.io/api/templates"
 
 GEMINI_SYSTEM_PROMPT = """
 Ты — маркетолог стартапа в Узбекистане. Анализируй данные и выдели самые частые боли пользователей, за которые они готовы платить до 50 000 сум/мес (~$4).
